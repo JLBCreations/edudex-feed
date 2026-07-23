@@ -2,7 +2,7 @@
 <edudexDirectory xmlns="http://studieData.nl/schema/edudex/directory"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://studieData.nl/schema/edudex/directory http://studieData.nl/schema/edudex/directory.xsd">
-  <editor>joost@the-unit.eu</editor>
+  <editor>joost.bleijenberg@theunitcompany.com</editor>
   <generator>develop-yourself.com/TrainingSyncFeedGen</generator>
   <version>1</version>
   <lastEdited>2026-07-21T00:00:00</lastEdited>

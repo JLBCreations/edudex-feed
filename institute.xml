@@ -2,7 +2,7 @@
 <instituteData xmlns="http://studieData.nl/schema/edudex/institute"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://studieData.nl/schema/edudex/institute http://studieData.nl/schema/edudex/institute.xsd">
-  <editor>joost@the-unit.eu</editor>
+  <editor>joost.bleijenberg@theunitcompany.com</editor>
   <format>2.0.23</format>
   <generator>develop-yourself.com/TrainingSyncFeedGen</generator>
   <orgUnitId>theunitcompany</orgUnitId>
