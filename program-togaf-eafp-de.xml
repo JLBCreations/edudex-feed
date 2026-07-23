@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<program xmlns="http://studieData.nl/schema/edudex/program"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://studieData.nl/schema/edudex/program http://studieData.nl/schema/edudex/program.xsd">
+  <editor>joost@the-unit.eu</editor>
+  <expires>2026-08-04</expires>
+  <format>2.5</format>
+  <generator>develop-yourself.com/TrainingSyncFeedGen</generator>
+  <lastEdited>2026-07-21T00:00:00</lastEdited>
+
+  <programAdmission>
+    <applicationOpen>true</applicationOpen>
+    <applicationType>individual</applicationType>
+    <paymentDue>up-front</paymentDue>
+    <startDateDetermination>fixed starting date</startDateDetermination>
+  </programAdmission>
+
+  <programClassification>
+    <degree>certificate</degree>
+    <orgUnitId>theunitcompany</orgUnitId>
+    <programDuration unit="day">5</programDuration>
+    <programForm>part-time</programForm>
+    <programId>TUC-TOGAF-EAFP-DE</programId>
+    <programLevel>none</programLevel>
+    <programLocation>Utrecht, Dusseldorf, Frankfurt, Hamburg, Berlin, Stuttgart, Brussel, Zurich</programLocation>
+    <programType>training</programType>
+    <startingYear>2020</startingYear>
+    <theme>automation and it</theme>
+  </programClassification>
+
+  <programContacts/>
+
+  <programCurriculum>
+    <instructionLanguage>
+      <languageCode>de</languageCode>
+      <percentage>100</percentage>
+    </instructionLanguage>
+  </programCurriculum>
+
+  <programDescriptions>
+      <programName xml:lang="de">TOGAF Enterprise Architecture Training - Foundation + Practitioner - Akkreditiert, inkl. offizieller Pruefungen</programName>
+      <programSummaryText xml:lang="de">Fuenftaegige akkreditierte TOGAF EA-Schulung (Foundation + Practitioner) inkl. offizieller Pruefungen.</programSummaryText>
+      <programDescriptionText xml:lang="de">In dieser akkreditierten fuenftaegigen Schulung behandeln Sie sowohl das Foundation- als auch das Practitioner-Niveau des TOGAF Enterprise Architecture Frameworks (10. Edition) und schliessen mit den beiden offiziellen Pruefungen ab.</programDescriptionText>
+  </programDescriptions>
+
+  <programSchedule>
+    <genericProgramRun>
+        <cost>
+          <id>TUC-TOGAF-EAFP-DE-GEN-TUI</id>
+          <amount>1495</amount>
+          <amountIsFinal>true</amountIsFinal>
+          <costType>tuition fee</costType>
+          <currency>EUR</currency>
+          <isRequiredCost>true</isRequiredCost>
+          <summaryText xml:lang="nl">Lesgeld op productniveau (excl. btw)</summaryText>
+        </cost>
+    </genericProgramRun>
+      <programRun>
+        <id>TOGAF-EAFP-2026-07-STU</id>
+        <status>application opened</status>
+        <startDate isFinal="true">2026-07-20</startDate>
+        <endDate isFinal="true">2026-07-24</endDate>
+        <cost>
+          <id>TOGAF-EAFP-2026-07-STU-TUI</id>
+          <amount>1495</amount>
+          <amountIsFinal>true</amountIsFinal>
+          <costType>tuition fee</costType>
+          <currency>EUR</currency>
+          <isRequiredCost>true</isRequiredCost>
+          <summaryText xml:lang="nl">Lesgeld (excl. btw)</summaryText>
+        </cost>
+        <cost>
+          <id>TOGAF-EAFP-2026-07-STU-EXAM-ONSITE</id>
+          <amount>345</amount>
+          <amountIsFinal>true</amountIsFinal>
+          <costType>examination</costType>
+          <currency>EUR</currency>
+          <isRequiredCost>false</isRequiredCost>
+          <summaryText xml:lang="nl">Examen op locatie i.p.v. voucher</summaryText>
+        </cost>
+        <cost>
+          <id>TOGAF-EAFP-2026-07-STU-RETAKE-P1</id>
+          <amount>95</amount>
+          <amountIsFinal>true</amountIsFinal>
+          <costType>examination</costType>
+          <currency>EUR</currency>
+          <isRequiredCost>false</isRequiredCost>
+          <summaryText xml:lang="nl">Herexamenverzekering deel 1</summaryText>
+        </cost>
+        <cost>
+          <id>TOGAF-EAFP-2026-07-STU-RETAKE-P12</id>
+          <amount>145</amount>
+          <amountIsFinal>true</amountIsFinal>
+          <costType>examination</costType>
+          <currency>EUR</currency>
+          <isRequiredCost>false</isRequiredCost>
+          <summaryText xml:lang="nl">Herexamenverzekering deel 1+2</summaryText>
+        </cost>
+        <courseDay>
+          <id>TOGAF-EAFP-2026-07-STU-D1</id>
+          <date>2026-07-20</date>
+          <startTime>09:00:00</startTime>
+          <endTime>17:00:00</endTime>
+        </courseDay>
+        <courseDay>
+          <id>TOGAF-EAFP-2026-07-STU-D2</id>
+          <date>2026-07-21</date>
+          <startTime>09:00:00</startTime>
+          <endTime>17:00:00</endTime>
+        </courseDay>
+        <courseDay>
+          <id>TOGAF-EAFP-2026-07-STU-D3</id>
+          <date>2026-07-22</date>
+          <startTime>09:00:00</startTime>
+          <endTime>17:00:00</endTime>
+        </courseDay>
+        <courseDay>
+          <id>TOGAF-EAFP-2026-07-STU-D4</id>
+          <date>2026-07-23</date>
+          <startTime>09:00:00</startTime>
+          <endTime>17:00:00</endTime>
+        </courseDay>
+        <courseDay>
+          <id>TOGAF-EAFP-2026-07-STU-D5</id>
+          <date>2026-07-24</date>
+          <startTime>09:00:00</startTime>
+          <endTime>17:00:00</endTime>
+        </courseDay>
+        <location>
+          <city>Stuttgart</city>
+          <country>de</country>
+        </location>
+      </programRun>
+  </programSchedule>
+</program>

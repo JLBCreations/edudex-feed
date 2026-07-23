@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edudexDirectory xmlns="http://studieData.nl/schema/edudex/directory"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://studieData.nl/schema/edudex/directory http://studieData.nl/schema/edudex/directory.xsd">
+  <editor>joost@the-unit.eu</editor>
+  <generator>develop-yourself.com/TrainingSyncFeedGen</generator>
+  <version>1</version>
+  <lastEdited>2026-07-21T00:00:00</lastEdited>
+  <instituteDataResource>https://jlbcreations.github.io/edudex-feed/institute.xml</instituteDataResource>
+  <orgUnitId>theunitcompany</orgUnitId>
+
+  <programResource>
+    <programId>TUC-TOGAF-EAFP-DE</programId>
+    <resourceUrl>https://jlbcreations.github.io/edudex-feed/program-togaf-eafp-de.xml</resourceUrl>
+  </programResource>
+  <programResource>
+    <programId>TUC-TOGAF-EAFP-EN</programId>
+    <resourceUrl>https://jlbcreations.github.io/edudex-feed/program-togaf-eafp-en.xml</resourceUrl>
+  </programResource>
+  <programResource>
+    <programId>TUC-TOGAF-EAFP-NL</programId>
+    <resourceUrl>https://jlbcreations.github.io/edudex-feed/program-togaf-eafp-nl.xml</resourceUrl>
+  </programResource>
+  <programResource>
+    <programId>TUC-ARCHIMATE-PRAC-DE</programId>
+    <resourceUrl>https://jlbcreations.github.io/edudex-feed/program-archimate-practitioner-de.xml</resourceUrl>
+  </programResource>
+  <programResource>
+    <programId>TUC-ARCHIMATE-PRAC-EN</programId>
+    <resourceUrl>https://jlbcreations.github.io/edudex-feed/program-archimate-practitioner-en.xml</resourceUrl>
+  </programResource>
+  <programResource>
+    <programId>TUC-ARCHIMATE-PRAC-NL</programId>
+    <resourceUrl>https://jlbcreations.github.io/edudex-feed/program-archimate-practitioner-nl.xml</resourceUrl>
+  </programResource>
+</edudexDirectory>
