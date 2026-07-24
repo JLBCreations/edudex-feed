@@ -6,7 +6,7 @@
   <format>2.0.23</format>
   <generator>develop-yourself.com/TrainingSyncFeedGen</generator>
   <orgUnitId>theunitcompany</orgUnitId>
-  <lastEdited>2026-07-24T11:47:05</lastEdited>
+  <lastEdited>2026-07-24T16:19:29</lastEdited>
 
   <contactData>
     <contactName>Joost Bleijenberg</contactName>
@@ -16,7 +16,7 @@
   </contactData>
 
   <instituteDescriptionText xml:lang="nl">The Unit Company (Develop Yourself) is een geaccrediteerd opleider voor TOGAF en ArchiMate Enterprise Architecture trainingen in Nederland, Duitsland, Belgie en Zwitserland.</instituteDescriptionText>
-  <instituteDescriptionText xml:lang="en">The Unit Company is an accredited training provider for TOGAF and ArchiMate Enterprise Architecture courses across the Netherlands, Germany, Belgium and Switzerland.</instituteDescriptionText>
+  <instituteDescriptionText xml:lang="en">The Unit Company (Develop Yourself) is an accredited training provider for TOGAF and ArchiMate Enterprise Architecture courses across the Netherlands, Germany, Belgium and Switzerland.</instituteDescriptionText>
 
   <instituteLocation>
     <id>theunitcompany-HQ</id>
@@ -30,7 +30,7 @@
     </address>
   </instituteLocation>
 
-  <instituteName xml:lang="nl">The Unit B.V.</instituteName>
+  <instituteName xml:lang="nl">The Unit Company B.V.</instituteName>
 
   <webLink xml:lang="nl">https://www.develop-yourself.com</webLink>
 </instituteData>
