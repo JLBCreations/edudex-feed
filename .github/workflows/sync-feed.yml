@@ -12,6 +12,12 @@ on:
 permissions:
   contents: write
 
+# Bij snel opeenvolgende triggers (directe sync vanuit de app) alleen de
+# laatste run laten draaien.
+concurrency:
+  group: feed-sync
+  cancel-in-progress: true
+
 jobs:
   sync:
     runs-on: ubuntu-latest
