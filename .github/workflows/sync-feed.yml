@@ -1,0 +1,61 @@
+# Ververst deze GitHub Pages-feed automatisch vanuit de live TrainingSync-app.
+# EDU-DEX blijft op deze (geregistreerde) Pages-URL pollen; de app is de bron.
+# Commit alleen bij échte datawijzigingen (lastEdited/expires tellen niet mee),
+# zodat afnemers geen dagelijkse schijn-updates zien.
+name: Sync EDU-DEX feed
+
+on:
+  schedule:
+    - cron: "0 5 * * *" # dagelijks 05:00 UTC
+  workflow_dispatch: {} # handmatig via Actions-tab
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Feed ophalen uit TrainingSync
+        run: |
+          set -euo pipefail
+          SRC="https://trainingsync.vercel.app/feed/the-unit-company"
+          BUST="$(date +%s)"
+          mkdir -p /tmp/new
+          curl -sf "$SRC/directory.xml?sync=$BUST" -o /tmp/new/directory.xml
+          curl -sf "$SRC/institute.xml?sync=$BUST" -o /tmp/new/institute.xml
+          for f in $(grep -oE '<resourceUrl>[^<]+</resourceUrl>' /tmp/new/directory.xml \
+                     | sed -E 's#</?resourceUrl>##g' | xargs -n1 basename); do
+            curl -sf "$SRC/$f?sync=$BUST" -o "/tmp/new/$f"
+          done
+          echo "Opgehaald: $(ls /tmp/new | wc -l) bestanden"
+
+      - name: Vergelijken (zonder lastEdited/expires) en committen
+        run: |
+          set -euo pipefail
+          norm() { grep -vE '<(lastEdited|expires)>' "$1" 2>/dev/null || true; }
+          changed=0
+          # Gewijzigde of nieuwe bestanden?
+          for f in /tmp/new/*.xml; do
+            b="$(basename "$f")"
+            if [ ! -f "$b" ] || ! diff -q <(norm "$b") <(norm "$f") >/dev/null; then
+              echo "gewijzigd/nieuw: $b"; changed=1
+            fi
+          done
+          # Verdwenen bestanden (verwijderde trainingen)?
+          for b in *.xml; do
+            [ -f "/tmp/new/$b" ] || { echo "vervallen: $b"; changed=1; }
+          done
+          if [ "$changed" -eq 0 ]; then
+            echo "Geen inhoudelijke wijzigingen — klaar."
+            exit 0
+          fi
+          rm -f *.xml
+          cp /tmp/new/*.xml .
+          git config user.name "feed-sync-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A
+          git commit -m "Automatische feed-sync vanuit TrainingSync"
+          git push
