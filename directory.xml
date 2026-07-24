@@ -5,22 +5,10 @@
   <editor>joost.bleijenberg@theunitcompany.com</editor>
   <generator>develop-yourself.com/TrainingSyncFeedGen</generator>
   <version>1</version>
-  <lastEdited>2026-07-21T00:00:00</lastEdited>
+  <lastEdited>2026-07-24T11:47:05</lastEdited>
   <instituteDataResource>https://jlbcreations.github.io/edudex-feed/institute.xml</instituteDataResource>
   <orgUnitId>theunitcompany</orgUnitId>
 
-  <programResource>
-    <programId>TUC-TOGAF-EAFP-DE</programId>
-    <resourceUrl>https://jlbcreations.github.io/edudex-feed/program-togaf-eafp-de.xml</resourceUrl>
-  </programResource>
-  <programResource>
-    <programId>TUC-TOGAF-EAFP-EN</programId>
-    <resourceUrl>https://jlbcreations.github.io/edudex-feed/program-togaf-eafp-en.xml</resourceUrl>
-  </programResource>
-  <programResource>
-    <programId>TUC-TOGAF-EAFP-NL</programId>
-    <resourceUrl>https://jlbcreations.github.io/edudex-feed/program-togaf-eafp-nl.xml</resourceUrl>
-  </programResource>
   <programResource>
     <programId>TUC-ARCHIMATE-PRAC-DE</programId>
     <resourceUrl>https://jlbcreations.github.io/edudex-feed/program-archimate-practitioner-de.xml</resourceUrl>
@@ -32,5 +20,17 @@
   <programResource>
     <programId>TUC-ARCHIMATE-PRAC-NL</programId>
     <resourceUrl>https://jlbcreations.github.io/edudex-feed/program-archimate-practitioner-nl.xml</resourceUrl>
+  </programResource>
+  <programResource>
+    <programId>TUC-TOGAF-EAFP-DE</programId>
+    <resourceUrl>https://jlbcreations.github.io/edudex-feed/program-togaf-eafp-de.xml</resourceUrl>
+  </programResource>
+  <programResource>
+    <programId>TUC-TOGAF-EAFP-EN</programId>
+    <resourceUrl>https://jlbcreations.github.io/edudex-feed/program-togaf-eafp-en.xml</resourceUrl>
+  </programResource>
+  <programResource>
+    <programId>TUC-TOGAF-EAFP-NL</programId>
+    <resourceUrl>https://jlbcreations.github.io/edudex-feed/program-togaf-eafp-nl.xml</resourceUrl>
   </programResource>
 </edudexDirectory>
