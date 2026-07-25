@@ -6,7 +6,7 @@
   <expires>2026-08-08</expires>
   <format>2.5</format>
   <generator>develop-yourself.com/TrainingSyncFeedGen</generator>
-  <lastEdited>2026-07-25T16:19:07</lastEdited>
+  <lastEdited>2026-07-25T16:20:53</lastEdited>
 
   <programAdmission>
     <applicationOpen>true</applicationOpen>
@@ -68,7 +68,7 @@ You receive digital documentation, practice exams and official badges and certif
         <id>TG_online_8</id>
         <status>application opened</status>
         <startDate isFinal="true">2026-08-25</startDate>
-        <endDate isFinal="true">2026-08-25</endDate>
+        <endDate isFinal="true">2026-08-28</endDate>
         <cost>
           <id>TG_online_8-TUI</id>
           <amount>2900</amount>
