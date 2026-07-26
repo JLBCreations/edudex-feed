@@ -5,7 +5,7 @@
   <editor>joost.bleijenberg@theunitcompany.com</editor>
   <generator>develop-yourself.com/TrainingSyncFeedGen</generator>
   <version>1</version>
-  <lastEdited>2026-07-26T20:22:57</lastEdited>
+  <lastEdited>2026-07-26T21:32:31</lastEdited>
   <instituteDataResource>https://jlbcreations.github.io/edudex-feed/institute.xml</instituteDataResource>
   <orgUnitId>theunitcompany</orgUnitId>
 
@@ -28,10 +28,6 @@
   <programResource>
     <programId>TUC-ARCHIMATE-PRAC-NL</programId>
     <resourceUrl>https://jlbcreations.github.io/edudex-feed/program-archimate-practitioner-nl.xml</resourceUrl>
-  </programResource>
-  <programResource>
-    <programId>TUC-TOGAF-EAFP-DE</programId>
-    <resourceUrl>https://jlbcreations.github.io/edudex-feed/program-togaf-eafp-de.xml</resourceUrl>
   </programResource>
   <programResource>
     <programId>TUC-TOGAF-EAFP-EN</programId>
