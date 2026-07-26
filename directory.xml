@@ -5,68 +5,9 @@
   <editor>joost.bleijenberg@theunitcompany.com</editor>
   <generator>develop-yourself.com/TrainingSyncFeedGen</generator>
   <version>1</version>
-  <lastEdited>2026-07-26T21:32:31</lastEdited>
+  <lastEdited>2026-07-26T21:34:02</lastEdited>
   <instituteDataResource>https://jlbcreations.github.io/edudex-feed/institute.xml</instituteDataResource>
   <orgUnitId>theunitcompany</orgUnitId>
 
-  <programResource>
-    <programId>TOGAF_online_only-EN</programId>
-    <resourceUrl>https://jlbcreations.github.io/edudex-feed/TOGAF_online_only1-en.xml</resourceUrl>
-  </programResource>
-  <programResource>
-    <programId>TOGAF10_CLASSROOM-NL</programId>
-    <resourceUrl>https://jlbcreations.github.io/edudex-feed/TOGAF10_CLASSROOM-nl.xml</resourceUrl>
-  </programResource>
-  <programResource>
-    <programId>TUC-ARCHIMATE-PRAC-DE</programId>
-    <resourceUrl>https://jlbcreations.github.io/edudex-feed/program-archimate-practitioner-de.xml</resourceUrl>
-  </programResource>
-  <programResource>
-    <programId>TUC-ARCHIMATE-PRAC-EN</programId>
-    <resourceUrl>https://jlbcreations.github.io/edudex-feed/program-archimate-practitioner-en.xml</resourceUrl>
-  </programResource>
-  <programResource>
-    <programId>TUC-ARCHIMATE-PRAC-NL</programId>
-    <resourceUrl>https://jlbcreations.github.io/edudex-feed/program-archimate-practitioner-nl.xml</resourceUrl>
-  </programResource>
-  <programResource>
-    <programId>TUC-TOGAF-EAFP-EN</programId>
-    <resourceUrl>https://jlbcreations.github.io/edudex-feed/program-togaf-eafp-en.xml</resourceUrl>
-  </programResource>
-  <programResource>
-    <programId>TUC-TOGAF-EAFP-NL</programId>
-    <resourceUrl>https://jlbcreations.github.io/edudex-feed/program-togaf-eafp-nl.xml</resourceUrl>
-  </programResource>
-  <programResource>
-    <programId>TUC-TOGAF-F2-EN</programId>
-    <resourceUrl>https://jlbcreations.github.io/edudex-feed/togaf-foundation-2d-en.xml</resourceUrl>
-  </programResource>
-  <programResource>
-    <programId>TUC-TOGAF-F2-NL</programId>
-    <resourceUrl>https://jlbcreations.github.io/edudex-feed/togaf-foundation-2d-nl.xml</resourceUrl>
-  </programResource>
-  <programResource>
-    <programId>TUC-TOGAF-F3-EN</programId>
-    <resourceUrl>https://jlbcreations.github.io/edudex-feed/togaf-foundation-3d-en.xml</resourceUrl>
-  </programResource>
-  <programResource>
-    <programId>TUC-TOGAF-F3-NL</programId>
-    <resourceUrl>https://jlbcreations.github.io/edudex-feed/togaf-foundation-3d-nl.xml</resourceUrl>
-  </programResource>
-  <programResource>
-    <programId>TUC-TOGAF-P4-EN</programId>
-    <resourceUrl>https://jlbcreations.github.io/edudex-feed/togaf-practitioner-4d-en.xml</resourceUrl>
-  </programResource>
-  <programResource>
-    <programId>TUC-TOGAF-P4-NL</programId>
-    <resourceUrl>https://jlbcreations.github.io/edudex-feed/togaf-practitioner-4d-nl.xml</resourceUrl>
-  </programResource>
-  <programResource>
-    <programId>TUC-TOGAF-P5-EN</programId>
-    <resourceUrl>https://jlbcreations.github.io/edudex-feed/togaf-practitioner-5d-en.xml</resourceUrl>
-  </programResource>
-  <programResource>
-    <programId>TUC-TOGAF-P5-NL</programId>
-    <resourceUrl>https://jlbcreations.github.io/edudex-feed/togaf-practitioner-5d-nl.xml</resourceUrl>
-  </programResource>
+
 </edudexDirectory>
