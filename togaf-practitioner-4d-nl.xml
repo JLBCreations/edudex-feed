@@ -6,7 +6,7 @@
   <expires>2026-08-09</expires>
   <format>2.5</format>
   <generator>develop-yourself.com/TrainingSyncFeedGen</generator>
-  <lastEdited>2026-07-26T10:36:45</lastEdited>
+  <lastEdited>2026-07-26T10:36:52</lastEdited>
 
   <programAdmission>
     <applicationOpen>true</applicationOpen>
@@ -18,9 +18,9 @@
   <programClassification>
     <degree>diploma</degree>
     <orgUnitId>theunitcompany</orgUnitId>
-    <programDuration unit="day">5</programDuration>
+    <programDuration unit="day">4</programDuration>
     <programForm>part-time</programForm>
-    <programId>TUC-TOGAF-EAFP-NL</programId>
+    <programId>TUC-TOGAF-P4-NL</programId>
     <programLevel>none</programLevel>
     <programLocation>Utrecht, Dusseldorf, Frankfurt, Hamburg, Berlin, Stuttgart, Brussel, Zurich</programLocation>
     <programType>training</programType>
@@ -38,7 +38,7 @@
   </programCurriculum>
 
   <programDescriptions>
-      <programName xml:lang="nl">TOGAF Enterprise Architecture Training - Foundation + Practitioner (Deel 1 + Deel 2), 10e editie - Geaccrediteerd, incl. officiele examens</programName>
+      <programName xml:lang="nl">TOGAF® Foundation &amp; Practitioner training (4-daags)</programName>
       <programSummaryText xml:lang="nl">Vijfdaagse geaccrediteerde TOGAF EA-training (Foundation + Practitioner) inclusief officiele examens.</programSummaryText>
       <programDescriptionText xml:lang="nl">In deze geaccrediteerde vijfdaagse training behandel je zowel het Foundation- als het Practitioner-niveau van het TOGAF Enterprise Architecture Framework (10e editie). Je sluit af met de twee officiele examens.</programDescriptionText>
   </programDescriptions>
@@ -46,8 +46,8 @@
   <programSchedule>
     <genericProgramRun>
         <cost>
-          <id>TUC-TOGAF-EAFP-NL-GEN-TUI</id>
-          <amount>1495</amount>
+          <id>TUC-TOGAF-P4-NL-GEN-TUI</id>
+          <amount>2990</amount>
           <amountIsFinal>true</amountIsFinal>
           <costType>tuition fee</costType>
           <currency>EUR</currency>
@@ -56,73 +56,126 @@
         </cost>
     </genericProgramRun>
       <programRun>
-        <id>TOGAF-EAFP-2026-08-UTR</id>
+        <id>P4-20260824-NL</id>
         <status>application opened</status>
         <startDate isFinal="true">2026-08-24</startDate>
-        <endDate isFinal="true">2026-08-28</endDate>
+        <endDate isFinal="true">2026-08-27</endDate>
         <cost>
-          <id>TOGAF-EAFP-2026-08-UTR-TUI</id>
-          <amount>1495</amount>
+          <id>P4-20260824-NL-TUI</id>
+          <amount>2990</amount>
           <amountIsFinal>true</amountIsFinal>
           <costType>tuition fee</costType>
           <currency>EUR</currency>
           <isRequiredCost>true</isRequiredCost>
           <summaryText xml:lang="nl">Lesgeld (excl. btw)</summaryText>
         </cost>
-        <cost>
-          <id>TOGAF-EAFP-2026-08-UTR-EXAM-ONSITE</id>
-          <amount>345</amount>
-          <amountIsFinal>true</amountIsFinal>
-          <costType>examination</costType>
-          <currency>EUR</currency>
-          <isRequiredCost>false</isRequiredCost>
-          <summaryText xml:lang="nl">Examen op locatie i.p.v. voucher</summaryText>
-        </cost>
-        <cost>
-          <id>TOGAF-EAFP-2026-08-UTR-RETAKE-P1</id>
-          <amount>95</amount>
-          <amountIsFinal>true</amountIsFinal>
-          <costType>examination</costType>
-          <currency>EUR</currency>
-          <isRequiredCost>false</isRequiredCost>
-          <summaryText xml:lang="nl">Herexamenverzekering deel 1</summaryText>
-        </cost>
-        <cost>
-          <id>TOGAF-EAFP-2026-08-UTR-RETAKE-P12</id>
-          <amount>145</amount>
-          <amountIsFinal>true</amountIsFinal>
-          <costType>examination</costType>
-          <currency>EUR</currency>
-          <isRequiredCost>false</isRequiredCost>
-          <summaryText xml:lang="nl">Herexamenverzekering deel 1+2</summaryText>
-        </cost>
         <courseDay>
-          <id>TOGAF-EAFP-2026-08-UTR-D1</id>
+          <id>P4-20260824-NL-D1</id>
           <date>2026-08-24</date>
           <startTime>09:00:00</startTime>
           <endTime>17:00:00</endTime>
         </courseDay>
         <courseDay>
-          <id>TOGAF-EAFP-2026-08-UTR-D2</id>
+          <id>P4-20260824-NL-D2</id>
           <date>2026-08-25</date>
           <startTime>09:00:00</startTime>
           <endTime>17:00:00</endTime>
         </courseDay>
         <courseDay>
-          <id>TOGAF-EAFP-2026-08-UTR-D3</id>
+          <id>P4-20260824-NL-D3</id>
           <date>2026-08-26</date>
           <startTime>09:00:00</startTime>
           <endTime>17:00:00</endTime>
         </courseDay>
         <courseDay>
-          <id>TOGAF-EAFP-2026-08-UTR-D4</id>
+          <id>P4-20260824-NL-D4</id>
           <date>2026-08-27</date>
           <startTime>09:00:00</startTime>
           <endTime>17:00:00</endTime>
         </courseDay>
+        <location>
+          <city>Utrecht</city>
+          <country>nl</country>
+        </location>
+      </programRun>
+      <programRun>
+        <id>P4-20261026-NL</id>
+        <status>application opened</status>
+        <startDate isFinal="true">2026-10-26</startDate>
+        <endDate isFinal="true">2026-10-29</endDate>
+        <cost>
+          <id>P4-20261026-NL-TUI</id>
+          <amount>2990</amount>
+          <amountIsFinal>true</amountIsFinal>
+          <costType>tuition fee</costType>
+          <currency>EUR</currency>
+          <isRequiredCost>true</isRequiredCost>
+          <summaryText xml:lang="nl">Lesgeld (excl. btw)</summaryText>
+        </cost>
         <courseDay>
-          <id>TOGAF-EAFP-2026-08-UTR-D5</id>
-          <date>2026-08-28</date>
+          <id>P4-20261026-NL-D1</id>
+          <date>2026-10-26</date>
+          <startTime>09:00:00</startTime>
+          <endTime>17:00:00</endTime>
+        </courseDay>
+        <courseDay>
+          <id>P4-20261026-NL-D2</id>
+          <date>2026-10-27</date>
+          <startTime>09:00:00</startTime>
+          <endTime>17:00:00</endTime>
+        </courseDay>
+        <courseDay>
+          <id>P4-20261026-NL-D3</id>
+          <date>2026-10-28</date>
+          <startTime>09:00:00</startTime>
+          <endTime>17:00:00</endTime>
+        </courseDay>
+        <courseDay>
+          <id>P4-20261026-NL-D4</id>
+          <date>2026-10-29</date>
+          <startTime>09:00:00</startTime>
+          <endTime>17:00:00</endTime>
+        </courseDay>
+        <location>
+          <city>Utrecht</city>
+          <country>nl</country>
+        </location>
+      </programRun>
+      <programRun>
+        <id>P4-20261123-NL</id>
+        <status>application opened</status>
+        <startDate isFinal="true">2026-11-23</startDate>
+        <endDate isFinal="true">2026-11-26</endDate>
+        <cost>
+          <id>P4-20261123-NL-TUI</id>
+          <amount>2990</amount>
+          <amountIsFinal>true</amountIsFinal>
+          <costType>tuition fee</costType>
+          <currency>EUR</currency>
+          <isRequiredCost>true</isRequiredCost>
+          <summaryText xml:lang="nl">Lesgeld (excl. btw)</summaryText>
+        </cost>
+        <courseDay>
+          <id>P4-20261123-NL-D1</id>
+          <date>2026-11-23</date>
+          <startTime>09:00:00</startTime>
+          <endTime>17:00:00</endTime>
+        </courseDay>
+        <courseDay>
+          <id>P4-20261123-NL-D2</id>
+          <date>2026-11-24</date>
+          <startTime>09:00:00</startTime>
+          <endTime>17:00:00</endTime>
+        </courseDay>
+        <courseDay>
+          <id>P4-20261123-NL-D3</id>
+          <date>2026-11-25</date>
+          <startTime>09:00:00</startTime>
+          <endTime>17:00:00</endTime>
+        </courseDay>
+        <courseDay>
+          <id>P4-20261123-NL-D4</id>
+          <date>2026-11-26</date>
           <startTime>09:00:00</startTime>
           <endTime>17:00:00</endTime>
         </courseDay>

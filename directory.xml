@@ -5,7 +5,7 @@
   <editor>joost.bleijenberg@theunitcompany.com</editor>
   <generator>develop-yourself.com/TrainingSyncFeedGen</generator>
   <version>1</version>
-  <lastEdited>2026-07-25T19:47:13</lastEdited>
+  <lastEdited>2026-07-26T10:36:36</lastEdited>
   <instituteDataResource>https://jlbcreations.github.io/edudex-feed/institute.xml</instituteDataResource>
   <orgUnitId>theunitcompany</orgUnitId>
 
@@ -40,5 +40,37 @@
   <programResource>
     <programId>TUC-TOGAF-EAFP-NL</programId>
     <resourceUrl>https://jlbcreations.github.io/edudex-feed/program-togaf-eafp-nl.xml</resourceUrl>
+  </programResource>
+  <programResource>
+    <programId>TUC-TOGAF-F2-EN</programId>
+    <resourceUrl>https://jlbcreations.github.io/edudex-feed/togaf-foundation-2d-en.xml</resourceUrl>
+  </programResource>
+  <programResource>
+    <programId>TUC-TOGAF-F2-NL</programId>
+    <resourceUrl>https://jlbcreations.github.io/edudex-feed/togaf-foundation-2d-nl.xml</resourceUrl>
+  </programResource>
+  <programResource>
+    <programId>TUC-TOGAF-F3-EN</programId>
+    <resourceUrl>https://jlbcreations.github.io/edudex-feed/togaf-foundation-3d-en.xml</resourceUrl>
+  </programResource>
+  <programResource>
+    <programId>TUC-TOGAF-F3-NL</programId>
+    <resourceUrl>https://jlbcreations.github.io/edudex-feed/togaf-foundation-3d-nl.xml</resourceUrl>
+  </programResource>
+  <programResource>
+    <programId>TUC-TOGAF-P4-EN</programId>
+    <resourceUrl>https://jlbcreations.github.io/edudex-feed/togaf-practitioner-4d-en.xml</resourceUrl>
+  </programResource>
+  <programResource>
+    <programId>TUC-TOGAF-P4-NL</programId>
+    <resourceUrl>https://jlbcreations.github.io/edudex-feed/togaf-practitioner-4d-nl.xml</resourceUrl>
+  </programResource>
+  <programResource>
+    <programId>TUC-TOGAF-P5-EN</programId>
+    <resourceUrl>https://jlbcreations.github.io/edudex-feed/togaf-practitioner-5d-en.xml</resourceUrl>
+  </programResource>
+  <programResource>
+    <programId>TUC-TOGAF-P5-NL</programId>
+    <resourceUrl>https://jlbcreations.github.io/edudex-feed/togaf-practitioner-5d-nl.xml</resourceUrl>
   </programResource>
 </edudexDirectory>
