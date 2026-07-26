@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<program xmlns="http://studieData.nl/schema/edudex/program"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://studieData.nl/schema/edudex/program http://studieData.nl/schema/edudex/program.xsd">
+  <editor>joost.bleijenberg@theunitcompany.com</editor>
+  <expires>2026-08-09</expires>
+  <format>2.5</format>
+  <generator>develop-yourself.com/TrainingSyncFeedGen</generator>
+  <lastEdited>2026-07-26T21:38:03</lastEdited>
+
+  <programAdmission>
+    <applicationOpen>true</applicationOpen>
+    <applicationType>individual</applicationType>
+    <paymentDue>up-front</paymentDue>
+    <startDateDetermination>fixed starting date</startDateDetermination>
+  </programAdmission>
+
+  <programClassification>
+    <degree>diploma</degree>
+    <orgUnitId>theunitcompany</orgUnitId>
+    <programDuration unit="day">2</programDuration>
+    <programForm>part-time</programForm>
+    <programId>TUC-TOGAF-F2-EN</programId>
+    <programLevel>none</programLevel>
+    <programLocation>Utrecht, Dusseldorf, Frankfurt, Hamburg, Berlin, Stuttgart, Brussel, Zurich</programLocation>
+    <programType>training</programType>
+    <startingYear>2020</startingYear>
+    <theme>automation and it</theme>
+  </programClassification>
+
+  <programContacts/>
+
+  <programCurriculum>
+    <instructionLanguage>
+      <languageCode>en</languageCode>
+      <percentage>100</percentage>
+    </instructionLanguage>
+  </programCurriculum>
+
+  <programDescriptions>
+      <programName xml:lang="en">TOGAF® Foundation training (2-day)</programName>
+      <programSummaryText xml:lang="en">Five-day accredited TOGAF EA training (Foundation + Practitioner) including official exams.</programSummaryText>
+      <programDescriptionText xml:lang="en">This accredited five-day training covers both the Foundation and Practitioner levels of the TOGAF Enterprise Architecture Framework (10th Edition), concluding with the two official exams.</programDescriptionText>
+  </programDescriptions>
+
+  <programSchedule>
+    <genericProgramRun>
+        <cost>
+          <id>TUC-TOGAF-F2-EN-GEN-TUI</id>
+          <amount>1595</amount>
+          <amountIsFinal>true</amountIsFinal>
+          <costType>tuition fee</costType>
+          <currency>EUR</currency>
+          <isRequiredCost>true</isRequiredCost>
+          <summaryText xml:lang="nl">Lesgeld op productniveau (excl. btw)</summaryText>
+        </cost>
+    </genericProgramRun>
+      <programRun>
+        <id>F2-20260921-EN</id>
+        <status>application opened</status>
+        <startDate isFinal="true">2026-09-21</startDate>
+        <endDate isFinal="true">2026-09-22</endDate>
+        <cost>
+          <id>F2-20260921-EN-TUI</id>
+          <amount>1595</amount>
+          <amountIsFinal>true</amountIsFinal>
+          <costType>tuition fee</costType>
+          <currency>EUR</currency>
+          <isRequiredCost>true</isRequiredCost>
+          <summaryText xml:lang="nl">Lesgeld (excl. btw)</summaryText>
+        </cost>
+        <cost>
+          <id>F2-20260921-EN-GARANTIE-F</id>
+          <amount>85</amount>
+          <amountIsFinal>true</amountIsFinal>
+          <costType>examination</costType>
+          <currency>EUR</currency>
+          <isRequiredCost>false</isRequiredCost>
+          <summaryText xml:lang="nl">Examengarantie 1x Foundation (t.w.v. EUR 360)</summaryText>
+        </cost>
+        <courseDay>
+          <id>F2-20260921-EN-D1</id>
+          <date>2026-09-21</date>
+          <startTime>09:00:00</startTime>
+          <endTime>17:00:00</endTime>
+        </courseDay>
+        <courseDay>
+          <id>F2-20260921-EN-D2</id>
+          <date>2026-09-22</date>
+          <startTime>09:00:00</startTime>
+          <endTime>17:00:00</endTime>
+        </courseDay>
+        <location>
+          <city>Utrecht</city>
+          <country>nl</country>
+        </location>
+      </programRun>
+      <programRun>
+        <id>F2-20260921-EN-BRU</id>
+        <status>application opened</status>
+        <startDate isFinal="true">2026-09-21</startDate>
+        <endDate isFinal="true">2026-09-22</endDate>
+        <cost>
+          <id>F2-20260921-EN-BRU-TUI</id>
+          <amount>1595</amount>
+          <amountIsFinal>true</amountIsFinal>
+          <costType>tuition fee</costType>
+          <currency>EUR</currency>
+          <isRequiredCost>true</isRequiredCost>
+          <summaryText xml:lang="nl">Lesgeld (excl. btw)</summaryText>
+        </cost>
+        <cost>
+          <id>F2-20260921-EN-BRU-GARANTIE-F</id>
+          <amount>85</amount>
+          <amountIsFinal>true</amountIsFinal>
+          <costType>examination</costType>
+          <currency>EUR</currency>
+          <isRequiredCost>false</isRequiredCost>
+          <summaryText xml:lang="nl">Examengarantie 1x Foundation (t.w.v. EUR 360)</summaryText>
+        </cost>
+        <courseDay>
+          <id>F2-20260921-EN-BRU-D1</id>
+          <date>2026-09-21</date>
+          <startTime>09:00:00</startTime>
+          <endTime>17:00:00</endTime>
+        </courseDay>
+        <courseDay>
+          <id>F2-20260921-EN-BRU-D2</id>
+          <date>2026-09-22</date>
+          <startTime>09:00:00</startTime>
+          <endTime>17:00:00</endTime>
+        </courseDay>
+        <location>
+          <city>Brussel</city>
+          <country>be</country>
+        </location>
+      </programRun>
+      <programRun>
+        <id>F2-20261214-EN</id>
+        <status>application opened</status>
+        <startDate isFinal="true">2026-12-14</startDate>
+        <endDate isFinal="true">2026-12-15</endDate>
+        <cost>
+          <id>F2-20261214-EN-TUI</id>
+          <amount>1595</amount>
+          <amountIsFinal>true</amountIsFinal>
+          <costType>tuition fee</costType>
+          <currency>EUR</currency>
+          <isRequiredCost>true</isRequiredCost>
+          <summaryText xml:lang="nl">Lesgeld (excl. btw)</summaryText>
+        </cost>
+        <cost>
+          <id>F2-20261214-EN-GARANTIE-F</id>
+          <amount>85</amount>
+          <amountIsFinal>true</amountIsFinal>
+          <costType>examination</costType>
+          <currency>EUR</currency>
+          <isRequiredCost>false</isRequiredCost>
+          <summaryText xml:lang="nl">Examengarantie 1x Foundation (t.w.v. EUR 360)</summaryText>
+        </cost>
+        <courseDay>
+          <id>F2-20261214-EN-D1</id>
+          <date>2026-12-14</date>
+          <startTime>09:00:00</startTime>
+          <endTime>17:00:00</endTime>
+        </courseDay>
+        <courseDay>
+          <id>F2-20261214-EN-D2</id>
+          <date>2026-12-15</date>
+          <startTime>09:00:00</startTime>
+          <endTime>17:00:00</endTime>
+        </courseDay>
+        <location>
+          <city>Utrecht</city>
+          <country>nl</country>
+        </location>
+      </programRun>
+      <programRun>
+        <id>F2-20261214-EN-BRU</id>
+        <status>application opened</status>
+        <startDate isFinal="true">2026-12-14</startDate>
+        <endDate isFinal="true">2026-12-15</endDate>
+        <cost>
+          <id>F2-20261214-EN-BRU-TUI</id>
+          <amount>1595</amount>
+          <amountIsFinal>true</amountIsFinal>
+          <costType>tuition fee</costType>
+          <currency>EUR</currency>
+          <isRequiredCost>true</isRequiredCost>
+          <summaryText xml:lang="nl">Lesgeld (excl. btw)</summaryText>
+        </cost>
+        <cost>
+          <id>F2-20261214-EN-BRU-GARANTIE-F</id>
+          <amount>85</amount>
+          <amountIsFinal>true</amountIsFinal>
+          <costType>examination</costType>
+          <currency>EUR</currency>
+          <isRequiredCost>false</isRequiredCost>
+          <summaryText xml:lang="nl">Examengarantie 1x Foundation (t.w.v. EUR 360)</summaryText>
+        </cost>
+        <courseDay>
+          <id>F2-20261214-EN-BRU-D1</id>
+          <date>2026-12-14</date>
+          <startTime>09:00:00</startTime>
+          <endTime>17:00:00</endTime>
+        </courseDay>
+        <courseDay>
+          <id>F2-20261214-EN-BRU-D2</id>
+          <date>2026-12-15</date>
+          <startTime>09:00:00</startTime>
+          <endTime>17:00:00</endTime>
+        </courseDay>
+        <location>
+          <city>Brussel</city>
+          <country>be</country>
+        </location>
+      </programRun>
+  </programSchedule>
+</program>
