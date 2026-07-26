@@ -6,7 +6,7 @@
   <expires>2026-08-09</expires>
   <format>2.5</format>
   <generator>develop-yourself.com/TrainingSyncFeedGen</generator>
-  <lastEdited>2026-07-26T20:17:20</lastEdited>
+  <lastEdited>2026-07-26T20:23:09</lastEdited>
 
   <programAdmission>
     <applicationOpen>true</applicationOpen>
@@ -69,6 +69,15 @@
           <isRequiredCost>true</isRequiredCost>
           <summaryText xml:lang="nl">Lesgeld (excl. btw)</summaryText>
         </cost>
+        <cost>
+          <id>F2-20260824-NL-GARANTIE-F</id>
+          <amount>85</amount>
+          <amountIsFinal>true</amountIsFinal>
+          <costType>examination</costType>
+          <currency>EUR</currency>
+          <isRequiredCost>false</isRequiredCost>
+          <summaryText xml:lang="nl">Examengarantie 1x Foundation (t.w.v. EUR 360)</summaryText>
+        </cost>
         <courseDay>
           <id>F2-20260824-NL-D1</id>
           <date>2026-08-24</date>
@@ -100,6 +109,15 @@
           <isRequiredCost>true</isRequiredCost>
           <summaryText xml:lang="nl">Lesgeld (excl. btw)</summaryText>
         </cost>
+        <cost>
+          <id>F2-20261026-NL-GARANTIE-F</id>
+          <amount>85</amount>
+          <amountIsFinal>true</amountIsFinal>
+          <costType>examination</costType>
+          <currency>EUR</currency>
+          <isRequiredCost>false</isRequiredCost>
+          <summaryText xml:lang="nl">Examengarantie 1x Foundation (t.w.v. EUR 360)</summaryText>
+        </cost>
         <courseDay>
           <id>F2-20261026-NL-D1</id>
           <date>2026-10-26</date>
@@ -130,6 +148,15 @@
           <currency>EUR</currency>
           <isRequiredCost>true</isRequiredCost>
           <summaryText xml:lang="nl">Lesgeld (excl. btw)</summaryText>
+        </cost>
+        <cost>
+          <id>F2-20261123-NL-GARANTIE-F</id>
+          <amount>85</amount>
+          <amountIsFinal>true</amountIsFinal>
+          <costType>examination</costType>
+          <currency>EUR</currency>
+          <isRequiredCost>false</isRequiredCost>
+          <summaryText xml:lang="nl">Examengarantie 1x Foundation (t.w.v. EUR 360)</summaryText>
         </cost>
         <courseDay>
           <id>F2-20261123-NL-D1</id>
