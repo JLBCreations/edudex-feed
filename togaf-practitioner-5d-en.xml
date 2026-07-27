@@ -3,10 +3,10 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://studieData.nl/schema/edudex/program http://studieData.nl/schema/edudex/program.xsd">
   <editor>joost.bleijenberg@theunitcompany.com</editor>
-  <expires>2026-08-09</expires>
+  <expires>2026-08-10</expires>
   <format>2.5</format>
   <generator>develop-yourself.com/TrainingSyncFeedGen</generator>
-  <lastEdited>2026-07-26T21:38:07</lastEdited>
+  <lastEdited>2026-07-27T05:50:15</lastEdited>
 
   <programAdmission>
     <applicationOpen>true</applicationOpen>
