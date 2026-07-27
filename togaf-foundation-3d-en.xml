@@ -6,7 +6,7 @@
   <expires>2026-08-10</expires>
   <format>2.5</format>
   <generator>develop-yourself.com/TrainingSyncFeedGen</generator>
-  <lastEdited>2026-07-27T06:06:49</lastEdited>
+  <lastEdited>2026-07-27T06:16:00</lastEdited>
 
   <programAdmission>
     <applicationOpen>true</applicationOpen>
@@ -71,7 +71,7 @@
         </cost>
         <cost>
           <id>F3-20261214-EN-GARANTIE-F</id>
-          <amount>95</amount>
+          <amount>75</amount>
           <amountIsFinal>true</amountIsFinal>
           <costType>examination</costType>
           <currency>EUR</currency>
@@ -117,7 +117,7 @@
         </cost>
         <cost>
           <id>F3-20261214-EN-BRU-GARANTIE-F</id>
-          <amount>95</amount>
+          <amount>75</amount>
           <amountIsFinal>true</amountIsFinal>
           <costType>examination</costType>
           <currency>EUR</currency>
@@ -163,7 +163,7 @@
         </cost>
         <cost>
           <id>F3-20260921-EN-GARANTIE-F</id>
-          <amount>95</amount>
+          <amount>75</amount>
           <amountIsFinal>true</amountIsFinal>
           <costType>examination</costType>
           <currency>EUR</currency>
@@ -209,7 +209,7 @@
         </cost>
         <cost>
           <id>F3-20260921-EN-BRU-GARANTIE-F</id>
-          <amount>95</amount>
+          <amount>75</amount>
           <amountIsFinal>true</amountIsFinal>
           <costType>examination</costType>
           <currency>EUR</currency>
