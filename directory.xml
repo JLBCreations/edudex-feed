@@ -5,10 +5,14 @@
   <editor>joost.bleijenberg@theunitcompany.com</editor>
   <generator>develop-yourself.com/TrainingSyncFeedGen</generator>
   <version>1</version>
-  <lastEdited>2026-07-27T06:15:56</lastEdited>
+  <lastEdited>2026-07-28T07:37:19</lastEdited>
   <instituteDataResource>https://jlbcreations.github.io/edudex-feed/institute.xml</instituteDataResource>
   <orgUnitId>theunitcompany</orgUnitId>
 
+  <programResource>
+    <programId>TOGAF_online_only-EN</programId>
+    <resourceUrl>https://jlbcreations.github.io/edudex-feed/TOGAF_online_only1-en.xml</resourceUrl>
+  </programResource>
   <programResource>
     <programId>TUC-TOGAF-F2-EN</programId>
     <resourceUrl>https://jlbcreations.github.io/edudex-feed/togaf-foundation-2d-en.xml</resourceUrl>
