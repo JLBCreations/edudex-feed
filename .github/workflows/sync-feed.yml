@@ -54,6 +54,19 @@ jobs:
           for b in *.xml; do
             [ -f "/tmp/new/$b" ] || { echo "vervallen: $b"; changed=1; }
           done
+          # Loopt de geldigheid van de gepubliceerde feed af? Dan opnieuw
+          # publiceren, ook als er inhoudelijk niets veranderde.
+          #
+          # Dit is de reden dat de feed op 11-08-2026 stilzwijgend verliep: de
+          # vergelijking negeert `expires` om dagelijkse schijn-updates te
+          # voorkomen, maar juist dát veld moet periodiek ververst worden.
+          # Afnemers beschouwen een feed ná `expires` als vervallen.
+          grens="$(date -u -d '+7 days' +%Y-%m-%d)"
+          oudste="$(grep -ho '<expires>[^<]*' *.xml 2>/dev/null | sed 's/<expires>//' | sort | head -1)"
+          if [ -n "$oudste" ] && [[ "$oudste" < "$grens" ]]; then
+            echo "geldigheid loopt af ($oudste, grens $grens) — opnieuw publiceren"
+            changed=1
+          fi
           if [ "$changed" -eq 0 ]; then
             echo "Geen inhoudelijke wijzigingen — klaar."
             exit 0
