@@ -6,7 +6,7 @@
   <expires>2026-09-01</expires>
   <format>2.5</format>
   <generator>develop-yourself.com/TrainingSyncFeedGen</generator>
-  <lastEdited>2026-08-18T22:07:11</lastEdited>
+  <lastEdited>2026-08-18T22:07:05</lastEdited>
 
   <programAdmission>
     <applicationOpen>true</applicationOpen>
@@ -18,9 +18,9 @@
   <programClassification>
     <degree>diploma</degree>
     <orgUnitId>theunitcompany</orgUnitId>
-    <programDuration unit="day">5</programDuration>
+    <programDuration unit="day">3</programDuration>
     <programForm>part-time</programForm>
-    <programId>TUC-TOGAF-P5-DE</programId>
+    <programId>TUC-ARCHIMATE-P3-NL</programId>
     <programLevel>none</programLevel>
     <programLocation>Utrecht, Dusseldorf, Frankfurt, Hamburg, Berlin, Stuttgart, Brussel, Zurich</programLocation>
     <programType>training</programType>
@@ -32,22 +32,22 @@
 
   <programCurriculum>
     <instructionLanguage>
-      <languageCode>de</languageCode>
+      <languageCode>nl</languageCode>
       <percentage>100</percentage>
     </instructionLanguage>
   </programCurriculum>
 
   <programDescriptions>
-      <programName xml:lang="de">TOGAF®-Foundation-&amp;-Practitioner-Training (5-tägig)</programName>
-      <programSummaryText xml:lang="de">Fuenftaegige akkreditierte TOGAF EA-Schulung (Foundation + Practitioner) inkl. offizieller Pruefungen.</programSummaryText>
-      <programDescriptionText xml:lang="de">In dieser akkreditierten fuenftaegigen Schulung behandeln Sie sowohl das Foundation- als auch das Practitioner-Niveau des TOGAF Enterprise Architecture Frameworks (10. Edition) und schliessen mit den beiden offiziellen Pruefungen ab.</programDescriptionText>
+      <programName xml:lang="nl">ArchiMate® Foundation en Practitioner training (3-daags) — geaccrediteerd, inclusief twee officiële examens tijdens de training</programName>
+      <programSummaryText xml:lang="nl">Geaccrediteerde ArchiMate-training (deel 1 + 2) van twee lesdagen met een aparte examendag, inclusief beide officiële examens op locatie.</programSummaryText>
+      <programDescriptionText xml:lang="nl">Praktijkgerichte, geaccrediteerde ArchiMate®-training waarin je de modelleertaal voor enterprise-architectuur leert toepassen: de lagen, de kernconcepten en de viewpoints waarmee je een architectuur vastlegt en communiceert. De training beslaat deel 1 (Foundation) en deel 2 (Practitioner) en bestaat uit twee aaneengesloten lesdagen plus een aparte examendag, met een weekend ertussen om te leren. Beide officiële examens leg je op die examendag op locatie af; een herexamenverzekering is optioneel bij te boeken.</programDescriptionText>
   </programDescriptions>
 
   <programSchedule>
     <genericProgramRun>
         <cost>
-          <id>TUC-TOGAF-P5-DE-GEN-TUI</id>
-          <amount>3335</amount>
+          <id>TUC-ARCHIMATE-P3-NL-GEN-TUI</id>
+          <amount>1640</amount>
           <amountIsFinal>true</amountIsFinal>
           <costType>tuition fee</costType>
           <currency>EUR</currency>
@@ -56,13 +56,13 @@
         </cost>
     </genericProgramRun>
       <programRun>
-        <id>TUC_TOGAF-P5</id>
+        <id>AM3-20261005-NL</id>
         <status>application opened</status>
-        <startDate isFinal="true">2026-09-28</startDate>
-        <endDate isFinal="true">2026-10-02</endDate>
+        <startDate isFinal="true">2026-10-05</startDate>
+        <endDate isFinal="true">2026-10-12</endDate>
         <cost>
-          <id>TUC_TOGAF-P5-TUI</id>
-          <amount>3335</amount>
+          <id>AM3-20261005-NL-TUI</id>
+          <amount>1640</amount>
           <amountIsFinal>true</amountIsFinal>
           <costType>tuition fee</costType>
           <currency>EUR</currency>
@@ -70,47 +70,53 @@
           <summaryText xml:lang="nl">Lesgeld (excl. btw)</summaryText>
         </cost>
         <cost>
-          <id>TUC_TOGAF-P5-GARANTIE-FP</id>
-          <amount>135</amount>
+          <id>AM3-20261005-NL-RETAKE-P1</id>
+          <amount>95</amount>
           <amountIsFinal>true</amountIsFinal>
           <costType>examination</costType>
           <currency>EUR</currency>
           <isRequiredCost>false</isRequiredCost>
-          <summaryText xml:lang="nl">Examengarantie Foundation + Practitioner (t.w.v. EUR 720)</summaryText>
+          <summaryText xml:lang="nl">Herexamenverzekering deel 1 (t.w.v. € 350)</summaryText>
+        </cost>
+        <cost>
+          <id>AM3-20261005-NL-RETAKE-P2</id>
+          <amount>95</amount>
+          <amountIsFinal>true</amountIsFinal>
+          <costType>examination</costType>
+          <currency>EUR</currency>
+          <isRequiredCost>false</isRequiredCost>
+          <summaryText xml:lang="nl">Herexamenverzekering deel 2 (t.w.v. € 350)</summaryText>
+        </cost>
+        <cost>
+          <id>AM3-20261005-NL-RETAKE-P12</id>
+          <amount>145</amount>
+          <amountIsFinal>true</amountIsFinal>
+          <costType>examination</costType>
+          <currency>EUR</currency>
+          <isRequiredCost>false</isRequiredCost>
+          <summaryText xml:lang="nl">Herexamenverzekering deel 1 + 2 (t.w.v. € 550)</summaryText>
         </cost>
         <courseDay>
-          <id>TUC_TOGAF-P5-D1</id>
-          <date>2026-09-28</date>
+          <id>AM3-20261005-NL-D1</id>
+          <date>2026-10-05</date>
           <startTime>09:00:00</startTime>
           <endTime>17:00:00</endTime>
         </courseDay>
         <courseDay>
-          <id>TUC_TOGAF-P5-D2</id>
-          <date>2026-09-29</date>
+          <id>AM3-20261005-NL-D2</id>
+          <date>2026-10-06</date>
           <startTime>09:00:00</startTime>
           <endTime>17:00:00</endTime>
         </courseDay>
         <courseDay>
-          <id>TUC_TOGAF-P5-D3</id>
-          <date>2026-09-30</date>
-          <startTime>09:00:00</startTime>
-          <endTime>17:00:00</endTime>
-        </courseDay>
-        <courseDay>
-          <id>TUC_TOGAF-P5-D4</id>
-          <date>2026-10-01</date>
-          <startTime>09:00:00</startTime>
-          <endTime>17:00:00</endTime>
-        </courseDay>
-        <courseDay>
-          <id>TUC_TOGAF-P5-D5</id>
-          <date>2026-10-02</date>
+          <id>AM3-20261005-NL-D3</id>
+          <date>2026-10-12</date>
           <startTime>09:00:00</startTime>
           <endTime>17:00:00</endTime>
         </courseDay>
         <location>
-          <city>Düsseldorf</city>
-          <country>de</country>
+          <city>Utrecht</city>
+          <country>nl</country>
         </location>
       </programRun>
   </programSchedule>

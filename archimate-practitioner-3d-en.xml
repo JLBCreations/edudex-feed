@@ -6,7 +6,7 @@
   <expires>2026-09-01</expires>
   <format>2.5</format>
   <generator>develop-yourself.com/TrainingSyncFeedGen</generator>
-  <lastEdited>2026-08-18T22:06:07</lastEdited>
+  <lastEdited>2026-08-18T22:07:05</lastEdited>
 
   <programAdmission>
     <applicationOpen>true</applicationOpen>
@@ -55,70 +55,6 @@
           <summaryText xml:lang="nl">Lesgeld op productniveau (excl. btw)</summaryText>
         </cost>
     </genericProgramRun>
-      <programRun>
-        <id>AM3-20260907-EN</id>
-        <status>application opened</status>
-        <startDate isFinal="true">2026-09-07</startDate>
-        <endDate isFinal="true">2026-09-14</endDate>
-        <cost>
-          <id>AM3-20260907-EN-TUI</id>
-          <amount>1640</amount>
-          <amountIsFinal>true</amountIsFinal>
-          <costType>tuition fee</costType>
-          <currency>EUR</currency>
-          <isRequiredCost>true</isRequiredCost>
-          <summaryText xml:lang="nl">Lesgeld (excl. btw)</summaryText>
-        </cost>
-        <cost>
-          <id>AM3-20260907-EN-RETAKE-P1</id>
-          <amount>95</amount>
-          <amountIsFinal>true</amountIsFinal>
-          <costType>examination</costType>
-          <currency>EUR</currency>
-          <isRequiredCost>false</isRequiredCost>
-          <summaryText xml:lang="nl">Herexamenverzekering deel 1 (t.w.v. € 350)</summaryText>
-        </cost>
-        <cost>
-          <id>AM3-20260907-EN-RETAKE-P2</id>
-          <amount>95</amount>
-          <amountIsFinal>true</amountIsFinal>
-          <costType>examination</costType>
-          <currency>EUR</currency>
-          <isRequiredCost>false</isRequiredCost>
-          <summaryText xml:lang="nl">Herexamenverzekering deel 2 (t.w.v. € 350)</summaryText>
-        </cost>
-        <cost>
-          <id>AM3-20260907-EN-RETAKE-P12</id>
-          <amount>145</amount>
-          <amountIsFinal>true</amountIsFinal>
-          <costType>examination</costType>
-          <currency>EUR</currency>
-          <isRequiredCost>false</isRequiredCost>
-          <summaryText xml:lang="nl">Herexamenverzekering deel 1 + 2 (t.w.v. € 550)</summaryText>
-        </cost>
-        <courseDay>
-          <id>AM3-20260907-EN-D1</id>
-          <date>2026-09-07</date>
-          <startTime>09:00:00</startTime>
-          <endTime>17:00:00</endTime>
-        </courseDay>
-        <courseDay>
-          <id>AM3-20260907-EN-D2</id>
-          <date>2026-09-08</date>
-          <startTime>09:00:00</startTime>
-          <endTime>17:00:00</endTime>
-        </courseDay>
-        <courseDay>
-          <id>AM3-20260907-EN-D3</id>
-          <date>2026-09-14</date>
-          <startTime>09:00:00</startTime>
-          <endTime>17:00:00</endTime>
-        </courseDay>
-        <location>
-          <city>Utrecht</city>
-          <country>nl</country>
-        </location>
-      </programRun>
       <programRun>
         <id>AM3-20260907-EN-BRU</id>
         <status>application opened</status>
@@ -309,6 +245,70 @@
         <location>
           <city>Düsseldorf</city>
           <country>de</country>
+        </location>
+      </programRun>
+      <programRun>
+        <id>AM3-20260907-EN</id>
+        <status>application opened</status>
+        <startDate isFinal="true">2026-09-07</startDate>
+        <endDate isFinal="true">2026-09-14</endDate>
+        <cost>
+          <id>AM3-20260907-EN-TUI</id>
+          <amount>1640</amount>
+          <amountIsFinal>true</amountIsFinal>
+          <costType>tuition fee</costType>
+          <currency>EUR</currency>
+          <isRequiredCost>true</isRequiredCost>
+          <summaryText xml:lang="nl">Lesgeld (excl. btw)</summaryText>
+        </cost>
+        <cost>
+          <id>AM3-20260907-EN-RETAKE-P1</id>
+          <amount>95</amount>
+          <amountIsFinal>true</amountIsFinal>
+          <costType>examination</costType>
+          <currency>EUR</currency>
+          <isRequiredCost>false</isRequiredCost>
+          <summaryText xml:lang="nl">Herexamenverzekering deel 1 (t.w.v. € 350)</summaryText>
+        </cost>
+        <cost>
+          <id>AM3-20260907-EN-RETAKE-P2</id>
+          <amount>95</amount>
+          <amountIsFinal>true</amountIsFinal>
+          <costType>examination</costType>
+          <currency>EUR</currency>
+          <isRequiredCost>false</isRequiredCost>
+          <summaryText xml:lang="nl">Herexamenverzekering deel 2 (t.w.v. € 350)</summaryText>
+        </cost>
+        <cost>
+          <id>AM3-20260907-EN-RETAKE-P12</id>
+          <amount>145</amount>
+          <amountIsFinal>true</amountIsFinal>
+          <costType>examination</costType>
+          <currency>EUR</currency>
+          <isRequiredCost>false</isRequiredCost>
+          <summaryText xml:lang="nl">Herexamenverzekering deel 1 + 2 (t.w.v. € 550)</summaryText>
+        </cost>
+        <courseDay>
+          <id>AM3-20260907-EN-D1</id>
+          <date>2026-09-07</date>
+          <startTime>09:00:00</startTime>
+          <endTime>17:00:00</endTime>
+        </courseDay>
+        <courseDay>
+          <id>AM3-20260907-EN-D2</id>
+          <date>2026-09-08</date>
+          <startTime>09:00:00</startTime>
+          <endTime>17:00:00</endTime>
+        </courseDay>
+        <courseDay>
+          <id>AM3-20260907-EN-D3</id>
+          <date>2026-09-14</date>
+          <startTime>09:00:00</startTime>
+          <endTime>17:00:00</endTime>
+        </courseDay>
+        <location>
+          <city>Utrecht</city>
+          <country>nl</country>
         </location>
       </programRun>
   </programSchedule>
