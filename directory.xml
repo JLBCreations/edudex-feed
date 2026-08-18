@@ -5,7 +5,7 @@
   <editor>joost.bleijenberg@theunitcompany.com</editor>
   <generator>develop-yourself.com/TrainingSyncFeedGen</generator>
   <version>1</version>
-  <lastEdited>2026-08-18T22:05:35</lastEdited>
+  <lastEdited>2026-08-18T22:06:03</lastEdited>
   <instituteDataResource>https://jlbcreations.github.io/edudex-feed/institute.xml</instituteDataResource>
   <orgUnitId>theunitcompany</orgUnitId>
 
@@ -16,6 +16,10 @@
   <programResource>
     <programId>TUC-ARCHIMATE-P2-EN</programId>
     <resourceUrl>https://jlbcreations.github.io/edudex-feed/archimate-practitioner-2d-en.xml</resourceUrl>
+  </programResource>
+  <programResource>
+    <programId>TUC-ARCHIMATE-P2-NL</programId>
+    <resourceUrl>https://jlbcreations.github.io/edudex-feed/archimate-practitioner-2d-nl.xml</resourceUrl>
   </programResource>
   <programResource>
     <programId>TUC-ARCHIMATE-P3-EN</programId>
