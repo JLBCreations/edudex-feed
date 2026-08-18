@@ -3,10 +3,10 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://studieData.nl/schema/edudex/program http://studieData.nl/schema/edudex/program.xsd">
   <editor>joost.bleijenberg@theunitcompany.com</editor>
-  <expires>2026-08-26</expires>
+  <expires>2026-09-01</expires>
   <format>2.5</format>
   <generator>develop-yourself.com/TrainingSyncFeedGen</generator>
-  <lastEdited>2026-08-12T19:57:00</lastEdited>
+  <lastEdited>2026-08-18T05:27:47</lastEdited>
 
   <programAdmission>
     <applicationOpen>true</applicationOpen>
@@ -55,122 +55,6 @@
           <summaryText xml:lang="nl">Lesgeld op productniveau (excl. btw)</summaryText>
         </cost>
     </genericProgramRun>
-      <programRun>
-        <id>P5-20260921-EN</id>
-        <status>application opened</status>
-        <startDate isFinal="true">2026-09-21</startDate>
-        <endDate isFinal="true">2026-09-25</endDate>
-        <cost>
-          <id>P5-20260921-EN-TUI</id>
-          <amount>3335</amount>
-          <amountIsFinal>true</amountIsFinal>
-          <costType>tuition fee</costType>
-          <currency>EUR</currency>
-          <isRequiredCost>true</isRequiredCost>
-          <summaryText xml:lang="nl">Lesgeld (excl. btw)</summaryText>
-        </cost>
-        <cost>
-          <id>P5-20260921-EN-GARANTIE-FP</id>
-          <amount>135</amount>
-          <amountIsFinal>true</amountIsFinal>
-          <costType>examination</costType>
-          <currency>EUR</currency>
-          <isRequiredCost>false</isRequiredCost>
-          <summaryText xml:lang="nl">Examengarantie Foundation + Practitioner (t.w.v. EUR 720)</summaryText>
-        </cost>
-        <courseDay>
-          <id>P5-20260921-EN-D1</id>
-          <date>2026-09-21</date>
-          <startTime>09:00:00</startTime>
-          <endTime>17:00:00</endTime>
-        </courseDay>
-        <courseDay>
-          <id>P5-20260921-EN-D2</id>
-          <date>2026-09-22</date>
-          <startTime>09:00:00</startTime>
-          <endTime>17:00:00</endTime>
-        </courseDay>
-        <courseDay>
-          <id>P5-20260921-EN-D3</id>
-          <date>2026-09-23</date>
-          <startTime>09:00:00</startTime>
-          <endTime>17:00:00</endTime>
-        </courseDay>
-        <courseDay>
-          <id>P5-20260921-EN-D4</id>
-          <date>2026-09-24</date>
-          <startTime>09:00:00</startTime>
-          <endTime>17:00:00</endTime>
-        </courseDay>
-        <courseDay>
-          <id>P5-20260921-EN-D5</id>
-          <date>2026-09-25</date>
-          <startTime>09:00:00</startTime>
-          <endTime>17:00:00</endTime>
-        </courseDay>
-        <location>
-          <city>Utrecht</city>
-          <country>nl</country>
-        </location>
-      </programRun>
-      <programRun>
-        <id>P5-20260921-EN-BRU</id>
-        <status>application opened</status>
-        <startDate isFinal="true">2026-09-21</startDate>
-        <endDate isFinal="true">2026-09-25</endDate>
-        <cost>
-          <id>P5-20260921-EN-BRU-TUI</id>
-          <amount>3335</amount>
-          <amountIsFinal>true</amountIsFinal>
-          <costType>tuition fee</costType>
-          <currency>EUR</currency>
-          <isRequiredCost>true</isRequiredCost>
-          <summaryText xml:lang="nl">Lesgeld (excl. btw)</summaryText>
-        </cost>
-        <cost>
-          <id>P5-20260921-EN-BRU-GARANTIE-FP</id>
-          <amount>135</amount>
-          <amountIsFinal>true</amountIsFinal>
-          <costType>examination</costType>
-          <currency>EUR</currency>
-          <isRequiredCost>false</isRequiredCost>
-          <summaryText xml:lang="nl">Examengarantie Foundation + Practitioner (t.w.v. EUR 720)</summaryText>
-        </cost>
-        <courseDay>
-          <id>P5-20260921-EN-BRU-D1</id>
-          <date>2026-09-21</date>
-          <startTime>09:00:00</startTime>
-          <endTime>17:00:00</endTime>
-        </courseDay>
-        <courseDay>
-          <id>P5-20260921-EN-BRU-D2</id>
-          <date>2026-09-22</date>
-          <startTime>09:00:00</startTime>
-          <endTime>17:00:00</endTime>
-        </courseDay>
-        <courseDay>
-          <id>P5-20260921-EN-BRU-D3</id>
-          <date>2026-09-23</date>
-          <startTime>09:00:00</startTime>
-          <endTime>17:00:00</endTime>
-        </courseDay>
-        <courseDay>
-          <id>P5-20260921-EN-BRU-D4</id>
-          <date>2026-09-24</date>
-          <startTime>09:00:00</startTime>
-          <endTime>17:00:00</endTime>
-        </courseDay>
-        <courseDay>
-          <id>P5-20260921-EN-BRU-D5</id>
-          <date>2026-09-25</date>
-          <startTime>09:00:00</startTime>
-          <endTime>17:00:00</endTime>
-        </courseDay>
-        <location>
-          <city>Brussel</city>
-          <country>be</country>
-        </location>
-      </programRun>
       <programRun>
         <id>P5-20261214-EN</id>
         <status>application opened</status>
@@ -279,6 +163,122 @@
         <courseDay>
           <id>P5-20261214-EN-BRU-D5</id>
           <date>2026-12-18</date>
+          <startTime>09:00:00</startTime>
+          <endTime>17:00:00</endTime>
+        </courseDay>
+        <location>
+          <city>Brussel</city>
+          <country>be</country>
+        </location>
+      </programRun>
+      <programRun>
+        <id>P5-20260921-EN</id>
+        <status>application opened</status>
+        <startDate isFinal="true">2026-09-21</startDate>
+        <endDate isFinal="true">2026-09-25</endDate>
+        <cost>
+          <id>P5-20260921-EN-TUI</id>
+          <amount>3335</amount>
+          <amountIsFinal>true</amountIsFinal>
+          <costType>tuition fee</costType>
+          <currency>EUR</currency>
+          <isRequiredCost>true</isRequiredCost>
+          <summaryText xml:lang="nl">Lesgeld (excl. btw)</summaryText>
+        </cost>
+        <cost>
+          <id>P5-20260921-EN-GARANTIE-FP</id>
+          <amount>135</amount>
+          <amountIsFinal>true</amountIsFinal>
+          <costType>examination</costType>
+          <currency>EUR</currency>
+          <isRequiredCost>false</isRequiredCost>
+          <summaryText xml:lang="nl">Examengarantie Foundation + Practitioner (t.w.v. EUR 720)</summaryText>
+        </cost>
+        <courseDay>
+          <id>P5-20260921-EN-D1</id>
+          <date>2026-09-21</date>
+          <startTime>09:00:00</startTime>
+          <endTime>17:00:00</endTime>
+        </courseDay>
+        <courseDay>
+          <id>P5-20260921-EN-D2</id>
+          <date>2026-09-22</date>
+          <startTime>09:00:00</startTime>
+          <endTime>17:00:00</endTime>
+        </courseDay>
+        <courseDay>
+          <id>P5-20260921-EN-D3</id>
+          <date>2026-09-23</date>
+          <startTime>09:00:00</startTime>
+          <endTime>17:00:00</endTime>
+        </courseDay>
+        <courseDay>
+          <id>P5-20260921-EN-D4</id>
+          <date>2026-09-24</date>
+          <startTime>09:00:00</startTime>
+          <endTime>17:00:00</endTime>
+        </courseDay>
+        <courseDay>
+          <id>P5-20260921-EN-D5</id>
+          <date>2026-09-25</date>
+          <startTime>09:00:00</startTime>
+          <endTime>17:00:00</endTime>
+        </courseDay>
+        <location>
+          <city>Utrecht</city>
+          <country>nl</country>
+        </location>
+      </programRun>
+      <programRun>
+        <id>P5-20260921-EN-BRU</id>
+        <status>application opened</status>
+        <startDate isFinal="true">2026-09-21</startDate>
+        <endDate isFinal="true">2026-09-25</endDate>
+        <cost>
+          <id>P5-20260921-EN-BRU-TUI</id>
+          <amount>3335</amount>
+          <amountIsFinal>true</amountIsFinal>
+          <costType>tuition fee</costType>
+          <currency>EUR</currency>
+          <isRequiredCost>true</isRequiredCost>
+          <summaryText xml:lang="nl">Lesgeld (excl. btw)</summaryText>
+        </cost>
+        <cost>
+          <id>P5-20260921-EN-BRU-GARANTIE-FP</id>
+          <amount>135</amount>
+          <amountIsFinal>true</amountIsFinal>
+          <costType>examination</costType>
+          <currency>EUR</currency>
+          <isRequiredCost>false</isRequiredCost>
+          <summaryText xml:lang="nl">Examengarantie Foundation + Practitioner (t.w.v. EUR 720)</summaryText>
+        </cost>
+        <courseDay>
+          <id>P5-20260921-EN-BRU-D1</id>
+          <date>2026-09-21</date>
+          <startTime>09:00:00</startTime>
+          <endTime>17:00:00</endTime>
+        </courseDay>
+        <courseDay>
+          <id>P5-20260921-EN-BRU-D2</id>
+          <date>2026-09-22</date>
+          <startTime>09:00:00</startTime>
+          <endTime>17:00:00</endTime>
+        </courseDay>
+        <courseDay>
+          <id>P5-20260921-EN-BRU-D3</id>
+          <date>2026-09-23</date>
+          <startTime>09:00:00</startTime>
+          <endTime>17:00:00</endTime>
+        </courseDay>
+        <courseDay>
+          <id>P5-20260921-EN-BRU-D4</id>
+          <date>2026-09-24</date>
+          <startTime>09:00:00</startTime>
+          <endTime>17:00:00</endTime>
+        </courseDay>
+        <courseDay>
+          <id>P5-20260921-EN-BRU-D5</id>
+          <date>2026-09-25</date>
           <startTime>09:00:00</startTime>
           <endTime>17:00:00</endTime>
         </courseDay>
