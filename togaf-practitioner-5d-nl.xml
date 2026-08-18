@@ -6,7 +6,7 @@
   <expires>2026-09-01</expires>
   <format>2.5</format>
   <generator>develop-yourself.com/TrainingSyncFeedGen</generator>
-  <lastEdited>2026-08-18T05:27:48</lastEdited>
+  <lastEdited>2026-08-18T21:37:56</lastEdited>
 
   <programAdmission>
     <applicationOpen>true</applicationOpen>
@@ -227,6 +227,64 @@
         <location>
           <city>Utrecht</city>
           <country>nl</country>
+        </location>
+      </programRun>
+      <programRun>
+        <id>TUC_TOGAF-P5</id>
+        <status>application opened</status>
+        <startDate isFinal="true">2026-09-28</startDate>
+        <endDate isFinal="true">2026-10-02</endDate>
+        <cost>
+          <id>TUC_TOGAF-P5-TUI</id>
+          <amount>3335</amount>
+          <amountIsFinal>true</amountIsFinal>
+          <costType>tuition fee</costType>
+          <currency>EUR</currency>
+          <isRequiredCost>true</isRequiredCost>
+          <summaryText xml:lang="nl">Lesgeld (excl. btw)</summaryText>
+        </cost>
+        <cost>
+          <id>TUC_TOGAF-P5-GARANTIE-FP</id>
+          <amount>135</amount>
+          <amountIsFinal>true</amountIsFinal>
+          <costType>examination</costType>
+          <currency>EUR</currency>
+          <isRequiredCost>false</isRequiredCost>
+          <summaryText xml:lang="nl">Examengarantie Foundation + Practitioner (t.w.v. EUR 720)</summaryText>
+        </cost>
+        <courseDay>
+          <id>TUC_TOGAF-P5-D1</id>
+          <date>2026-09-28</date>
+          <startTime>09:00:00</startTime>
+          <endTime>17:00:00</endTime>
+        </courseDay>
+        <courseDay>
+          <id>TUC_TOGAF-P5-D2</id>
+          <date>2026-09-29</date>
+          <startTime>09:00:00</startTime>
+          <endTime>17:00:00</endTime>
+        </courseDay>
+        <courseDay>
+          <id>TUC_TOGAF-P5-D3</id>
+          <date>2026-09-30</date>
+          <startTime>09:00:00</startTime>
+          <endTime>17:00:00</endTime>
+        </courseDay>
+        <courseDay>
+          <id>TUC_TOGAF-P5-D4</id>
+          <date>2026-10-01</date>
+          <startTime>09:00:00</startTime>
+          <endTime>17:00:00</endTime>
+        </courseDay>
+        <courseDay>
+          <id>TUC_TOGAF-P5-D5</id>
+          <date>2026-10-02</date>
+          <startTime>09:00:00</startTime>
+          <endTime>17:00:00</endTime>
+        </courseDay>
+        <location>
+          <city>Düsseldorf</city>
+          <country>de</country>
         </location>
       </programRun>
   </programSchedule>
