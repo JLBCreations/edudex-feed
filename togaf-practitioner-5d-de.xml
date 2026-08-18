@@ -6,7 +6,7 @@
   <expires>2026-09-01</expires>
   <format>2.5</format>
   <generator>develop-yourself.com/TrainingSyncFeedGen</generator>
-  <lastEdited>2026-08-18T21:39:40</lastEdited>
+  <lastEdited>2026-08-18T21:39:47</lastEdited>
 
   <programAdmission>
     <applicationOpen>true</applicationOpen>
@@ -16,16 +16,15 @@
   </programAdmission>
 
   <programClassification>
-    <degree>certificate</degree>
-    <fullyOnline>true</fullyOnline>
+    <degree>diploma</degree>
     <orgUnitId>theunitcompany</orgUnitId>
-    <programDuration unit="day">4</programDuration>
+    <programDuration unit="day">5</programDuration>
     <programForm>part-time</programForm>
-    <programId>TOGAF_online_only-EN</programId>
+    <programId>TUC-TOGAF-P5-DE</programId>
     <programLevel>none</programLevel>
-    <programLocation>online</programLocation>
+    <programLocation>Utrecht, Dusseldorf, Frankfurt, Hamburg, Berlin, Stuttgart, Brussel, Zurich</programLocation>
     <programType>training</programType>
-    <startingYear>2026</startingYear>
+    <startingYear>2020</startingYear>
     <theme>automation and it</theme>
   </programClassification>
 
@@ -33,30 +32,22 @@
 
   <programCurriculum>
     <instructionLanguage>
-      <languageCode>en</languageCode>
+      <languageCode>de</languageCode>
       <percentage>100</percentage>
     </instructionLanguage>
   </programCurriculum>
 
   <programDescriptions>
-      <programName xml:lang="en">Accredited TOGAF® Training – Foundation &amp; Practitioner (10th Edition)</programName>
-      <programSummaryText xml:lang="en">Accredited TOGAF® training based on the 10th Edition. Foundation or Practitioner, with exams during the week or exam vouchers afterwards.</programSummaryText>
-      <programDescriptionText xml:lang="en">Master enterprise architecture with the accredited TOGAF® Training from The Unit Company, a recognised educator since 2008 and leading provider since 2010. Delivered by experienced, practising trainers, this course prepares you fully for the official TOGAF® exams based on the TOGAF® Standard, 10th Edition.
-
-Choose the option that fits your goals:
-- Foundation (2 days): full preparation for the TOGAF EA Foundation exam, with an exam voucher after training.
-- Foundation (3 days): includes premium exam preparation and the official exam on the training location within the same week.
-- Practitioner (4 days): combines Foundation and Practitioner materials, including Learning Studies, exam vouchers and the TOGAF Applied Practitioner badge.
-- Practitioner (5 days): as above, with premium preparation and both exams taken during the week.
-
-You receive digital documentation, practice exams and official badges and certificates from The Open Group upon passing. Available as classroom, in-house and live online training, in English, across the Netherlands, Belgium and Germany.</programDescriptionText>
+      <programName xml:lang="de">TOGAF®-Foundation-&amp;-Practitioner-Training (5-tägig)</programName>
+      <programSummaryText xml:lang="de">Fuenftaegige akkreditierte TOGAF EA-Schulung (Foundation + Practitioner) inkl. offizieller Pruefungen.</programSummaryText>
+      <programDescriptionText xml:lang="de">In dieser akkreditierten fuenftaegigen Schulung behandeln Sie sowohl das Foundation- als auch das Practitioner-Niveau des TOGAF Enterprise Architecture Frameworks (10. Edition) und schliessen mit den beiden offiziellen Pruefungen ab.</programDescriptionText>
   </programDescriptions>
 
   <programSchedule>
     <genericProgramRun>
         <cost>
-          <id>TOGAF_online_only-EN-GEN-TUI</id>
-          <amount>2900</amount>
+          <id>TUC-TOGAF-P5-DE-GEN-TUI</id>
+          <amount>3335</amount>
           <amountIsFinal>true</amountIsFinal>
           <costType>tuition fee</costType>
           <currency>EUR</currency>
@@ -65,43 +56,62 @@ You receive digital documentation, practice exams and official badges and certif
         </cost>
     </genericProgramRun>
       <programRun>
-        <id>testonline</id>
+        <id>TUC_TOGAF-P5</id>
         <status>application opened</status>
-        <startDate isFinal="true">2026-10-19</startDate>
-        <endDate isFinal="true">2026-10-22</endDate>
+        <startDate isFinal="true">2026-09-28</startDate>
+        <endDate isFinal="true">2026-10-02</endDate>
         <cost>
-          <id>testonline-TUI</id>
-          <amount>2900</amount>
+          <id>TUC_TOGAF-P5-TUI</id>
+          <amount>3335</amount>
           <amountIsFinal>true</amountIsFinal>
           <costType>tuition fee</costType>
           <currency>EUR</currency>
           <isRequiredCost>true</isRequiredCost>
           <summaryText xml:lang="nl">Lesgeld (excl. btw)</summaryText>
         </cost>
+        <cost>
+          <id>TUC_TOGAF-P5-GARANTIE-FP</id>
+          <amount>135</amount>
+          <amountIsFinal>true</amountIsFinal>
+          <costType>examination</costType>
+          <currency>EUR</currency>
+          <isRequiredCost>false</isRequiredCost>
+          <summaryText xml:lang="nl">Examengarantie Foundation + Practitioner (t.w.v. EUR 720)</summaryText>
+        </cost>
         <courseDay>
-          <id>testonline-D1</id>
-          <date>2026-10-19</date>
+          <id>TUC_TOGAF-P5-D1</id>
+          <date>2026-09-28</date>
           <startTime>09:00:00</startTime>
           <endTime>17:00:00</endTime>
         </courseDay>
         <courseDay>
-          <id>testonline-D2</id>
-          <date>2026-10-20</date>
+          <id>TUC_TOGAF-P5-D2</id>
+          <date>2026-09-29</date>
           <startTime>09:00:00</startTime>
           <endTime>17:00:00</endTime>
         </courseDay>
         <courseDay>
-          <id>testonline-D3</id>
-          <date>2026-10-21</date>
+          <id>TUC_TOGAF-P5-D3</id>
+          <date>2026-09-30</date>
           <startTime>09:00:00</startTime>
           <endTime>17:00:00</endTime>
         </courseDay>
         <courseDay>
-          <id>testonline-D4</id>
-          <date>2026-10-22</date>
+          <id>TUC_TOGAF-P5-D4</id>
+          <date>2026-10-01</date>
           <startTime>09:00:00</startTime>
           <endTime>17:00:00</endTime>
         </courseDay>
+        <courseDay>
+          <id>TUC_TOGAF-P5-D5</id>
+          <date>2026-10-02</date>
+          <startTime>09:00:00</startTime>
+          <endTime>17:00:00</endTime>
+        </courseDay>
+        <location>
+          <city>Düsseldorf</city>
+          <country>de</country>
+        </location>
       </programRun>
   </programSchedule>
 </program>
