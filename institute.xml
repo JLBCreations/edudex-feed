@@ -6,7 +6,7 @@
   <format>2.0.23</format>
   <generator>develop-yourself.com/TrainingSyncFeedGen</generator>
   <orgUnitId>theunitcompany</orgUnitId>
-  <lastEdited>2026-08-20T12:09:16</lastEdited>
+  <lastEdited>2026-08-20T12:50:57</lastEdited>
   <accreditation>CRKBO</accreditation>
 
   <contactData>
@@ -31,6 +31,9 @@
       <street>Bisonspoor</street>
       <zipcode>3605 LT</zipcode>
     </address>
+    <name xml:lang="nl">The Unit B.V.</name>
+    <name xml:lang="en">The Unit B.V.</name>
+    <name xml:lang="de">The Unit Company</name>
   </instituteLocation>
 
   <instituteName xml:lang="nl">The Unit B.V.</instituteName>
