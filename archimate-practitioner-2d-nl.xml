@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<program xmlns="http://studieData.nl/schema/edudex/program"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://studieData.nl/schema/edudex/program http://studieData.nl/schema/edudex/program.xsd">
+  <editor>joost.bleijenberg@theunitcompany.com</editor>
+  <expires>2026-09-03</expires>
+  <format>2.5</format>
+  <generator>develop-yourself.com/TrainingSyncFeedGen</generator>
+  <lastEdited>2026-08-20T13:40:09</lastEdited>
+
+  <programAdmission>
+    <applicationOpen>true</applicationOpen>
+    <applicationType>individual</applicationType>
+    <paymentDue>up-front</paymentDue>
+    <startDateDetermination>fixed starting date</startDateDetermination>
+  </programAdmission>
+
+  <programClassification>
+    <degree>none</degree>
+    <orgUnitId>theunitcompany</orgUnitId>
+    <programDuration unit="day">2</programDuration>
+    <programForm>part-time</programForm>
+    <programId>TUC-ARCHIMATE-P2-NL</programId>
+    <programLevel>none</programLevel>
+    <programLocation>Utrecht, Dusseldorf, Frankfurt, Hamburg, Berlin, Stuttgart, Brussel, Zurich</programLocation>
+    <programType>training</programType>
+    <startingYear>2020</startingYear>
+    <theme>automation and it</theme>
+  </programClassification>
+
+  <programContacts/>
+
+  <programCurriculum>
+    <instructionLanguage>
+      <languageCode>nl</languageCode>
+      <percentage>100</percentage>
+    </instructionLanguage>
+  </programCurriculum>
+
+  <programDescriptions>
+      <programName xml:lang="nl">ArchiMate® Training — Practitioner (deel 1 + deel 2, 2-daags) — geaccrediteerd, inclusief twee examenvouchers</programName>
+      <programSummaryText xml:lang="nl">Geaccrediteerde ArchiMate-training (deel 1 + 2) in twee aaneengesloten lesdagen, inclusief twee examenvouchers die je zelf inplant.</programSummaryText>
+      <programDescriptionText xml:lang="nl">Dezelfde inhoud en dezelfde geaccrediteerde opzet als de 3-daagse variant: de lagen, kernconcepten en viewpoints van ArchiMate®, waarmee je een enterprise-architectuur vastlegt en communiceert. De training beslaat deel 1 (Foundation) en deel 2 (Practitioner) en duurt twee aaneengesloten lesdagen. In plaats van een examendag op locatie ontvang je twee examenvouchers, waarmee je de officiële examens zelf inplant. Wil je de examens toch op locatie afleggen, dan is dat als arrangement bij te boeken, net als de herexamenverzekering.</programDescriptionText>
+  </programDescriptions>
+
+  <programSchedule>
+    <genericProgramRun>
+        <cost>
+          <id>TUC-ARCHIMATE-P2-NL-GEN-TUI</id>
+          <amount>1295</amount>
+          <amountIsFinal>true</amountIsFinal>
+          <costType>tuition fee</costType>
+          <currency>EUR</currency>
+          <isRequiredCost>true</isRequiredCost>
+          <summaryText xml:lang="nl">Lesgeld op productniveau (excl. btw)</summaryText>
+        </cost>
+    </genericProgramRun>
+      <programRun>
+        <id>AM2-20261005-NL</id>
+        <status>application opened</status>
+        <startDate isFinal="true">2026-10-05</startDate>
+        <endDate isFinal="true">2026-10-06</endDate>
+        <cost>
+          <id>AM2-20261005-NL-TUI</id>
+          <amount>1295</amount>
+          <amountIsFinal>true</amountIsFinal>
+          <costType>tuition fee</costType>
+          <currency>EUR</currency>
+          <isRequiredCost>true</isRequiredCost>
+          <summaryText xml:lang="nl">Lesgeld (excl. btw)</summaryText>
+        </cost>
+        <cost>
+          <id>AM2-20261005-NL-EXAM-ONSITE</id>
+          <amount>345</amount>
+          <amountIsFinal>true</amountIsFinal>
+          <costType>examination</costType>
+          <currency>EUR</currency>
+          <isRequiredCost>false</isRequiredCost>
+          <summaryText xml:lang="nl">Examens op locatie i.p.v. vouchers</summaryText>
+        </cost>
+        <cost>
+          <id>AM2-20261005-NL-RETAKE-P1</id>
+          <amount>95</amount>
+          <amountIsFinal>true</amountIsFinal>
+          <costType>examination</costType>
+          <currency>EUR</currency>
+          <isRequiredCost>false</isRequiredCost>
+          <summaryText xml:lang="nl">Herexamenverzekering deel 1 (t.w.v. € 350)</summaryText>
+        </cost>
+        <cost>
+          <id>AM2-20261005-NL-RETAKE-P2</id>
+          <amount>95</amount>
+          <amountIsFinal>true</amountIsFinal>
+          <costType>examination</costType>
+          <currency>EUR</currency>
+          <isRequiredCost>false</isRequiredCost>
+          <summaryText xml:lang="nl">Herexamenverzekering deel 2 (t.w.v. € 350)</summaryText>
+        </cost>
+        <cost>
+          <id>AM2-20261005-NL-RETAKE-P12</id>
+          <amount>145</amount>
+          <amountIsFinal>true</amountIsFinal>
+          <costType>examination</costType>
+          <currency>EUR</currency>
+          <isRequiredCost>false</isRequiredCost>
+          <summaryText xml:lang="nl">Herexamenverzekering deel 1 + 2 (t.w.v. € 550)</summaryText>
+        </cost>
+        <courseDay>
+          <id>AM2-20261005-NL-D1</id>
+          <date>2026-10-05</date>
+          <startTime>09:00:00</startTime>
+          <endTime>17:00:00</endTime>
+        </courseDay>
+        <courseDay>
+          <id>AM2-20261005-NL-D2</id>
+          <date>2026-10-06</date>
+          <startTime>09:00:00</startTime>
+          <endTime>17:00:00</endTime>
+        </courseDay>
+        <location>
+          <city>Utrecht</city>
+          <country>nl</country>
+        </location>
+      </programRun>
+      <programRun>
+        <id>AM2-20261102-NL</id>
+        <status>application opened</status>
+        <startDate isFinal="true">2026-11-02</startDate>
+        <endDate isFinal="true">2026-11-03</endDate>
+        <cost>
+          <id>AM2-20261102-NL-TUI</id>
+          <amount>1295</amount>
+          <amountIsFinal>true</amountIsFinal>
+          <costType>tuition fee</costType>
+          <currency>EUR</currency>
+          <isRequiredCost>true</isRequiredCost>
+          <summaryText xml:lang="nl">Lesgeld (excl. btw)</summaryText>
+        </cost>
+        <cost>
+          <id>AM2-20261102-NL-EXAM-ONSITE</id>
+          <amount>345</amount>
+          <amountIsFinal>true</amountIsFinal>
+          <costType>examination</costType>
+          <currency>EUR</currency>
+          <isRequiredCost>false</isRequiredCost>
+          <summaryText xml:lang="nl">Examens op locatie i.p.v. vouchers</summaryText>
+        </cost>
+        <cost>
+          <id>AM2-20261102-NL-RETAKE-P1</id>
+          <amount>95</amount>
+          <amountIsFinal>true</amountIsFinal>
+          <costType>examination</costType>
+          <currency>EUR</currency>
+          <isRequiredCost>false</isRequiredCost>
+          <summaryText xml:lang="nl">Herexamenverzekering deel 1 (t.w.v. € 350)</summaryText>
+        </cost>
+        <cost>
+          <id>AM2-20261102-NL-RETAKE-P2</id>
+          <amount>95</amount>
+          <amountIsFinal>true</amountIsFinal>
+          <costType>examination</costType>
+          <currency>EUR</currency>
+          <isRequiredCost>false</isRequiredCost>
+          <summaryText xml:lang="nl">Herexamenverzekering deel 2 (t.w.v. € 350)</summaryText>
+        </cost>
+        <cost>
+          <id>AM2-20261102-NL-RETAKE-P12</id>
+          <amount>145</amount>
+          <amountIsFinal>true</amountIsFinal>
+          <costType>examination</costType>
+          <currency>EUR</currency>
+          <isRequiredCost>false</isRequiredCost>
+          <summaryText xml:lang="nl">Herexamenverzekering deel 1 + 2 (t.w.v. € 550)</summaryText>
+        </cost>
+        <courseDay>
+          <id>AM2-20261102-NL-D1</id>
+          <date>2026-11-02</date>
+          <startTime>09:00:00</startTime>
+          <endTime>17:00:00</endTime>
+        </courseDay>
+        <courseDay>
+          <id>AM2-20261102-NL-D2</id>
+          <date>2026-11-03</date>
+          <startTime>09:00:00</startTime>
+          <endTime>17:00:00</endTime>
+        </courseDay>
+        <location>
+          <city>Utrecht</city>
+          <country>nl</country>
+        </location>
+      </programRun>
+  </programSchedule>
+</program>

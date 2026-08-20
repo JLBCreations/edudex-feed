@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<program xmlns="http://studieData.nl/schema/edudex/program"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://studieData.nl/schema/edudex/program http://studieData.nl/schema/edudex/program.xsd">
+  <editor>joost.bleijenberg@theunitcompany.com</editor>
+  <expires>2026-09-03</expires>
+  <format>2.5</format>
+  <generator>develop-yourself.com/TrainingSyncFeedGen</generator>
+  <lastEdited>2026-08-20T13:40:05</lastEdited>
+
+  <programAdmission>
+    <applicationOpen>true</applicationOpen>
+    <applicationType>individual</applicationType>
+    <paymentDue>up-front</paymentDue>
+    <startDateDetermination>fixed starting date</startDateDetermination>
+  </programAdmission>
+
+  <programClassification>
+    <degree>certificate</degree>
+    <fullyOnline>true</fullyOnline>
+    <orgUnitId>theunitcompany</orgUnitId>
+    <programDuration unit="day">4</programDuration>
+    <programForm>part-time</programForm>
+    <programId>TOGAF_online_only-EN</programId>
+    <programLevel>none</programLevel>
+    <programLocation>online</programLocation>
+    <programType>training</programType>
+    <startingYear>2026</startingYear>
+    <theme>automation and it</theme>
+  </programClassification>
+
+  <programContacts/>
+
+  <programCurriculum>
+    <instructionLanguage>
+      <languageCode>en</languageCode>
+      <percentage>100</percentage>
+    </instructionLanguage>
+  </programCurriculum>
+
+  <programDescriptions>
+      <programName xml:lang="en">Accredited TOGAF® Training – Foundation &amp; Practitioner (10th Edition)</programName>
+      <programSummaryText xml:lang="en">Accredited TOGAF® training based on the 10th Edition. Foundation or Practitioner, with exams during the week or exam vouchers afterwards.</programSummaryText>
+      <programDescriptionText xml:lang="en">Master enterprise architecture with the accredited TOGAF® Training from The Unit Company, a recognised educator since 2008 and leading provider since 2010. Delivered by experienced, practising trainers, this course prepares you fully for the official TOGAF® exams based on the TOGAF® Standard, 10th Edition.
+
+Choose the option that fits your goals:
+- Foundation (2 days): full preparation for the TOGAF EA Foundation exam, with an exam voucher after training.
+- Foundation (3 days): includes premium exam preparation and the official exam on the training location within the same week.
+- Practitioner (4 days): combines Foundation and Practitioner materials, including Learning Studies, exam vouchers and the TOGAF Applied Practitioner badge.
+- Practitioner (5 days): as above, with premium preparation and both exams taken during the week.
+
+You receive digital documentation, practice exams and official badges and certificates from The Open Group upon passing. Available as classroom, in-house and live online training, in English, across the Netherlands, Belgium and Germany.</programDescriptionText>
+      <webLink xml:lang="en">https://www.theunitcompany.com</webLink>
+  </programDescriptions>
+
+  <programSchedule>
+    <genericProgramRun>
+        <cost>
+          <id>TOGAF_online_only-EN-GEN-TUI</id>
+          <amount>2900</amount>
+          <amountIsFinal>true</amountIsFinal>
+          <costType>tuition fee</costType>
+          <currency>EUR</currency>
+          <isRequiredCost>true</isRequiredCost>
+          <summaryText xml:lang="nl">Lesgeld op productniveau (excl. btw)</summaryText>
+        </cost>
+    </genericProgramRun>
+      <programRun>
+        <id>testonline</id>
+        <status>application opened</status>
+        <startDate isFinal="true">2026-10-19</startDate>
+        <endDate isFinal="true">2026-10-22</endDate>
+        <cost>
+          <id>testonline-TUI</id>
+          <amount>2900</amount>
+          <amountIsFinal>true</amountIsFinal>
+          <costType>tuition fee</costType>
+          <currency>EUR</currency>
+          <isRequiredCost>true</isRequiredCost>
+          <summaryText xml:lang="nl">Lesgeld (excl. btw)</summaryText>
+        </cost>
+        <courseDay>
+          <id>testonline-D1</id>
+          <date>2026-10-19</date>
+          <startTime>09:00:00</startTime>
+          <endTime>17:00:00</endTime>
+        </courseDay>
+        <courseDay>
+          <id>testonline-D2</id>
+          <date>2026-10-20</date>
+          <startTime>09:00:00</startTime>
+          <endTime>17:00:00</endTime>
+        </courseDay>
+        <courseDay>
+          <id>testonline-D3</id>
+          <date>2026-10-21</date>
+          <startTime>09:00:00</startTime>
+          <endTime>17:00:00</endTime>
+        </courseDay>
+        <courseDay>
+          <id>testonline-D4</id>
+          <date>2026-10-22</date>
+          <startTime>09:00:00</startTime>
+          <endTime>17:00:00</endTime>
+        </courseDay>
+      </programRun>
+  </programSchedule>
+</program>
