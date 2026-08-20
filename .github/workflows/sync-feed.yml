@@ -62,7 +62,9 @@ jobs:
           # voorkomen, maar juist dát veld moet periodiek ververst worden.
           # Afnemers beschouwen een feed ná `expires` als vervallen.
           grens="$(date -u -d '+7 days' +%Y-%m-%d)"
-          oudste="$(grep -ho '<expires>[^<]*' *.xml 2>/dev/null | sed 's/<expires>//' | sort | head -1)"
+          # `|| true`: als geen enkel bestand een <expires> heeft (bv. na een
+          # lege publicatie) mag deze check de sync niet laten falen.
+          oudste="$(grep -ho '<expires>[^<]*' *.xml 2>/dev/null | sed 's/<expires>//' | sort | head -1 || true)"
           if [ -n "$oudste" ] && [[ "$oudste" < "$grens" ]]; then
             echo "geldigheid loopt af ($oudste, grens $grens) — opnieuw publiceren"
             changed=1
