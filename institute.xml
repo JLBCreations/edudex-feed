@@ -6,7 +6,7 @@
   <format>2.0.23</format>
   <generator>develop-yourself.com/TrainingSyncFeedGen</generator>
   <orgUnitId>theunitcompany</orgUnitId>
-  <lastEdited>2026-08-19T05:38:08</lastEdited>
+  <lastEdited>2026-08-20T06:24:27</lastEdited>
   <accreditation>CRKBO</accreditation>
 
   <contactData>
@@ -18,6 +18,7 @@
 
   <instituteDescriptionText xml:lang="nl">The Unit Company is een geaccrediteerd opleider voor TOGAF en ArchiMate Enterprise Architecture trainingen in Nederland, Duitsland, Belgie en Zwitserland.</instituteDescriptionText>
   <instituteDescriptionText xml:lang="en">The Unit Company is an accredited training provider for TOGAF and ArchiMate Enterprise Architecture courses across the Netherlands, Germany, Belgium and Switzerland.</instituteDescriptionText>
+  <instituteDescriptionText xml:lang="de">The Unit Company ist ein akkreditierter Schulungsanbieter für TOGAF- und ArchiMate-Enterprise-Architecture-Kurse in den Niederlanden, Deutschland, Belgien und der Schweiz.</instituteDescriptionText>
   <instituteFoundingDate>2007-01-01</instituteFoundingDate>
 
   <instituteLocation>
@@ -33,6 +34,9 @@
   </instituteLocation>
 
   <instituteName xml:lang="nl">The Unit B.V.</instituteName>
-
+  <instituteName xml:lang="en">The Unit B.V.</instituteName>
+  <instituteName xml:lang="de">The Unit Company</instituteName>
   <webLink xml:lang="nl">https://www.theunitcompany.com</webLink>
+  <webLink xml:lang="en">https://www.theunitcompany.com</webLink>
+  <webLink xml:lang="de">https://www.theunitcompany.com</webLink>
 </instituteData>
