@@ -6,7 +6,7 @@
   <expires>2026-09-04</expires>
   <format>2.5</format>
   <generator>develop-yourself.com/TrainingSyncFeedGen</generator>
-  <lastEdited>2026-08-21T07:41:30</lastEdited>
+  <lastEdited>2026-08-21T07:41:31</lastEdited>
 
   <programAdmission>
     <applicationOpen>true</applicationOpen>
@@ -21,7 +21,7 @@
     <orgUnitId>theunitcompany</orgUnitId>
     <programDuration unit="day">4</programDuration>
     <programForm>part-time</programForm>
-    <programId>TOGAF_online_only-EN</programId>
+    <programId>TOGAF_online_only-NL</programId>
     <programLevel>none</programLevel>
     <programLocation>online</programLocation>
     <programType>training</programType>
@@ -33,30 +33,32 @@
 
   <programCurriculum>
     <instructionLanguage>
-      <languageCode>en</languageCode>
+      <languageCode>nl</languageCode>
       <percentage>100</percentage>
     </instructionLanguage>
   </programCurriculum>
 
   <programDescriptions>
-      <programName xml:lang="en">Accredited TOGAF® Training – Foundation &amp; Practitioner (10th Edition)</programName>
-      <programSummaryText xml:lang="en">Accredited TOGAF® training based on the 10th Edition. Foundation or Practitioner, with exams during the week or exam vouchers afterwards.</programSummaryText>
-      <programDescriptionText xml:lang="en">Master enterprise architecture with the accredited TOGAF® Training from The Unit Company, a recognised educator since 2008 and leading provider since 2010. Delivered by experienced, practising trainers, this course prepares you fully for the official TOGAF® exams based on the TOGAF® Standard, 10th Edition.
+      <programName xml:lang="nl">TOGAF® Training – Foundation &amp; Practitioner (10th Edition, geaccrediteerd)</programName>
+      <programSummaryText xml:lang="nl">Geaccrediteerde TOGAF® training Foundation en Practitioner op basis van de 10th Edition. Inclusief examens, klassikaal, in-house of live online.</programSummaryText>
+      <programDescriptionText xml:lang="nl">Word specialist in enterprise architecture met de geaccrediteerde TOGAF® Training van The Unit Company, dé opleider voor enterprise architecture sinds 2010. Onze trainingen zijn geaccrediteerd door The Open Group en gebaseerd op de TOGAF® Standard, 10th Edition.
 
-Choose the option that fits your goals:
-- Foundation (2 days): full preparation for the TOGAF EA Foundation exam, with an exam voucher after training.
-- Foundation (3 days): includes premium exam preparation and the official exam on the training location within the same week.
-- Practitioner (4 days): combines Foundation and Practitioner materials, including Learning Studies, exam vouchers and the TOGAF Applied Practitioner badge.
-- Practitioner (5 days): as above, with premium preparation and both exams taken during the week.
+Kies de variant die bij je past:
+- Foundation (2 dagen): volledige voorbereiding op het TOGAF EA Foundation examen, inclusief examenvoucher achteraf.
+- Foundation (3 dagen): met premium examenvoorbereiding en het examen nog dezelfde week op locatie.
+- Practitioner (4 dagen): combineert Foundation- en Practitioner-materiaal, inclusief twee examenvouchers en de Applied Practitioner Badge.
+- Practitioner (5 dagen): met premium voorbereiding en beide examens dezelfde week.
 
-You receive digital documentation, practice exams and official badges and certificates from The Open Group upon passing. Available as classroom, in-house and live online training, in English, across the Netherlands, Belgium and Germany.</programDescriptionText>
-      <webLink xml:lang="en">https://www.theunitcompany.com</webLink>
+Je leert van ervaren, gepassioneerde trainers die de theorie combineren met praktijkervaring en Learning Studies. Na succesvol afronden ontvang je de officiële badges en examencertificaten van The Open Group.
+
+Beschikbaar klassikaal (o.a. Utrecht, Brussel en Duitsland), in-house en live online. Optionele examengarantie beschermt je investering.</programDescriptionText>
+      <webLink xml:lang="nl">https://www.theunitcompany.com</webLink>
   </programDescriptions>
 
   <programSchedule>
     <genericProgramRun>
         <cost>
-          <id>TOGAF_online_only-EN-GEN-TUI</id>
+          <id>TOGAF_online_only-NL-GEN-TUI</id>
           <amount>2900</amount>
           <amountIsFinal>true</amountIsFinal>
           <costType>tuition fee</costType>
@@ -66,12 +68,12 @@ You receive digital documentation, practice exams and official badges and certif
         </cost>
     </genericProgramRun>
       <programRun>
-        <id>testonline</id>
+        <id>TONLINEDEC</id>
         <status>application opened</status>
-        <startDate isFinal="true">2026-10-19</startDate>
-        <endDate isFinal="true">2026-10-22</endDate>
+        <startDate isFinal="true">2026-11-17</startDate>
+        <endDate isFinal="true">2026-11-20</endDate>
         <cost>
-          <id>testonline-TUI</id>
+          <id>TONLINEDEC-TUI</id>
           <amount>2900</amount>
           <amountIsFinal>true</amountIsFinal>
           <costType>tuition fee</costType>
@@ -80,26 +82,26 @@ You receive digital documentation, practice exams and official badges and certif
           <summaryText xml:lang="nl">Lesgeld (excl. btw)</summaryText>
         </cost>
         <courseDay>
-          <id>testonline-D1</id>
-          <date>2026-10-19</date>
+          <id>TONLINEDEC-D1</id>
+          <date>2026-11-17</date>
           <startTime>09:00:00</startTime>
           <endTime>17:00:00</endTime>
         </courseDay>
         <courseDay>
-          <id>testonline-D2</id>
-          <date>2026-10-20</date>
+          <id>TONLINEDEC-D2</id>
+          <date>2026-11-18</date>
           <startTime>09:00:00</startTime>
           <endTime>17:00:00</endTime>
         </courseDay>
         <courseDay>
-          <id>testonline-D3</id>
-          <date>2026-10-21</date>
+          <id>TONLINEDEC-D3</id>
+          <date>2026-11-19</date>
           <startTime>09:00:00</startTime>
           <endTime>17:00:00</endTime>
         </courseDay>
         <courseDay>
-          <id>testonline-D4</id>
-          <date>2026-10-22</date>
+          <id>TONLINEDEC-D4</id>
+          <date>2026-11-20</date>
           <startTime>09:00:00</startTime>
           <endTime>17:00:00</endTime>
         </courseDay>

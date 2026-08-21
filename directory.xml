@@ -5,13 +5,17 @@
   <editor>joost.bleijenberg@theunitcompany.com</editor>
   <generator>develop-yourself.com/TrainingSyncFeedGen</generator>
   <version>1</version>
-  <lastEdited>2026-08-20T13:40:02</lastEdited>
+  <lastEdited>2026-08-21T07:41:28</lastEdited>
   <instituteDataResource>https://jlbcreations.github.io/edudex-feed/institute.xml</instituteDataResource>
   <orgUnitId>theunitcompany</orgUnitId>
 
   <programResource>
     <programId>TOGAF_online_only-EN</programId>
     <resourceUrl>https://jlbcreations.github.io/edudex-feed/TOGAF_online_only1-en.xml</resourceUrl>
+  </programResource>
+  <programResource>
+    <programId>TOGAF_online_only-NL</programId>
+    <resourceUrl>https://jlbcreations.github.io/edudex-feed/TOGAF_online_only1-nl.xml</resourceUrl>
   </programResource>
   <programResource>
     <programId>TUC-ARCHIMATE-P2-DE</programId>
