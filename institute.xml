@@ -4,9 +4,9 @@
     xsi:schemaLocation="http://studieData.nl/schema/edudex/institute http://studieData.nl/schema/edudex/institute.xsd">
   <editor>joost.bleijenberg@theunitcompany.com</editor>
   <format>2.0.23</format>
-  <generator>develop-yourself.com/TrainingSyncFeedGen</generator>
+  <generator>TrainingBO/TheUnitCompany</generator>
   <orgUnitId>theunitcompany</orgUnitId>
-  <lastEdited>2026-08-29T11:28:45</lastEdited>
+  <lastEdited>2026-09-02T04:31:34</lastEdited>
   <accreditation>CRKBO</accreditation>
 
   <contactData>

@@ -3,9 +3,9 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://studieData.nl/schema/edudex/directory http://studieData.nl/schema/edudex/directory.xsd">
   <editor>joost.bleijenberg@theunitcompany.com</editor>
-  <generator>develop-yourself.com/TrainingSyncFeedGen</generator>
+  <generator>TrainingBO/TheUnitCompany</generator>
   <version>1</version>
-  <lastEdited>2026-08-29T11:28:42</lastEdited>
+  <lastEdited>2026-09-02T04:31:32</lastEdited>
   <instituteDataResource>https://jlbcreations.github.io/edudex-feed/institute.xml</instituteDataResource>
   <orgUnitId>theunitcompany</orgUnitId>
 
