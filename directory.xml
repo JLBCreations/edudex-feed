@@ -5,14 +5,10 @@
   <editor>joost.bleijenberg@theunitcompany.com</editor>
   <generator>TrainingBO/TheUnitCompany</generator>
   <version>1</version>
-  <lastEdited>2026-09-03T17:18:13</lastEdited>
+  <lastEdited>2026-09-07T14:57:08</lastEdited>
   <instituteDataResource>https://jlbcreations.github.io/edudex-feed/institute.xml</instituteDataResource>
   <orgUnitId>theunitcompany</orgUnitId>
 
-  <programResource>
-    <programId>T10_7D-NL</programId>
-    <resourceUrl>https://jlbcreations.github.io/edudex-feed/T10_7D-nl.xml</resourceUrl>
-  </programResource>
   <programResource>
     <programId>TOGAF_online_only-EN</programId>
     <resourceUrl>https://jlbcreations.github.io/edudex-feed/TOGAF_online_only1-en.xml</resourceUrl>
