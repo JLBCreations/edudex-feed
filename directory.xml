@@ -5,13 +5,17 @@
   <editor>joost.bleijenberg@theunitcompany.com</editor>
   <generator>TrainingBO/TheUnitCompany</generator>
   <version>1</version>
-  <lastEdited>2026-11-05T14:14:23</lastEdited>
+  <lastEdited>2026-11-05T14:15:09</lastEdited>
   <instituteDataResource>https://jlbcreations.github.io/edudex-feed/institute.xml</instituteDataResource>
   <orgUnitId>theunitcompany</orgUnitId>
 
   <programResource>
     <programId>T10ENF2O-EN</programId>
     <resourceUrl>https://jlbcreations.github.io/edudex-feed/T10ENF2O-en.xml</resourceUrl>
+  </programResource>
+  <programResource>
+    <programId>T10ENF2O-NL</programId>
+    <resourceUrl>https://jlbcreations.github.io/edudex-feed/T10ENF2O-nl.xml</resourceUrl>
   </programResource>
   <programResource>
     <programId>TOGAF_online_only-EN</programId>
